@@ -60,11 +60,14 @@ class Program
                 }
             } while (continuar);
         }
-
+        void Menu()
+        {
+            exibir_opcoes();
+            coleta_opcao();
+        }
 
         //Chamando as funções.
         exibir_msg();
-        exibir_opcoes();
-        coleta_opcao();
+        Menu();
     }
 }

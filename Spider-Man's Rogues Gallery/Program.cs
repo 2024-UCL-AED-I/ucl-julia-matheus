@@ -107,7 +107,6 @@ class Program
         {
             //Agora é com a Julia.😛😛😛😛
         }
-
         //Chamando as funções.
         exibir_msg();
         Menu();

@@ -30,9 +30,41 @@ class Program
             Console.WriteLine("Digite 4 para excluir um vilão da lista");
             Console.WriteLine("\n Digite sua opção!");
         }
+        void coleta_opcao()
+        {
+            int n;
+            bool continuar = false;
+            do
+            {
+                n = int.Parse(Console.ReadLine()!);
+                switch (n)
+                {
+                    case 1:
+                        Console.WriteLine("Opção 1");
+                        break;
+                    case 2:
+                        Console.WriteLine("Opção 2");
+
+                        break;
+                    case 3:
+                        Console.WriteLine("Opção 3");
+                        break;
+                    case 4:
+                        Console.WriteLine("Opção 4");
+                        break;
+                    default:
+                        Console.WriteLine("Opção inválida!!");
+                        Console.WriteLine("Tente Novamente");
+                        continuar = true;
+                        break;
+                }
+            } while (continuar);
+        }
+
 
         //Chamando as funções.
         exibir_msg();
         exibir_opcoes();
+        coleta_opcao();
     }
 }

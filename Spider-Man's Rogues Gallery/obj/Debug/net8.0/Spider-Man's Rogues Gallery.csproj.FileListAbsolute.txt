@@ -1,0 +1,15 @@
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\bin\Debug\net8.0\Spider-Man's Rogues Gallery.exe
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\bin\Debug\net8.0\Spider-Man's Rogues Gallery.deps.json
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\bin\Debug\net8.0\Spider-Man's Rogues Gallery.runtimeconfig.json
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\bin\Debug\net8.0\Spider-Man's Rogues Gallery.dll
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\bin\Debug\net8.0\Spider-Man's Rogues Gallery.pdb
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\Spider-Man's Rogues Gallery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\Spider-Man's Rogues Gallery.AssemblyInfoInputs.cache
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\Spider-Man's Rogues Gallery.AssemblyInfo.cs
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\Spider-Man's Rogues Gallery.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\Spider-Man's Rogues Gallery.sourcelink.json
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\Spider-Man's Rogues Gallery.dll
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\refint\Spider-Man's Rogues Gallery.dll
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\Spider-Man's Rogues Gallery.pdb
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\Spider-Man's Rogues Gallery.genruntimeconfig.cache
+C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\Spider-Man's Rogues Gallery\obj\Debug\net8.0\ref\Spider-Man's Rogues Gallery.dll

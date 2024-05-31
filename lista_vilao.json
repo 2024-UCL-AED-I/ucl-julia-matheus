@@ -1,0 +1,324 @@
+[
+  {
+    "nome_vilao": "Duende Verde (Green Goblin)",
+    "nome": "Norman Osborn",
+    "idade": "Varia de acordo com a versão, geralmente entre 40 e 50 anos",
+    "ocupacao": "Empresário, cientista",
+    "informacoes_do_vilao": {
+      "superpoder": "Força, agilidade e resistência sobre-humanas; fator de cura acelerado",
+      "equipamentos": "Planador, bombas de abóbora, luvas de choque",
+      "fraquezas": "Sanidade mental instável, dependência do soro Goblin"
+    },
+    "extras": {
+      "formacao": "Ciência e engenharia",
+      "relacoes": "Pai de Harry Osborn (Duende Verde II), inimigo mortal do Homem-Aranha",
+      "curiosidades": "A identidade secreta de Norman como Duende Verde foi um segredo de longa data nos quadrinhos"
+    }
+  },
+  {
+    "nome_vilao": "Doutor Octopus (Doctor Octopus)",
+    "nome": "Otto Octavius",
+    "idade": "Aproximadamente 40-50 anos",
+    "ocupacao": "Cientista, engenheiro",
+    "informacoes_do_vilao": {
+      "superpoder": "Inteligência genial",
+      "equipamentos": "Tentáculos mecânicos controlados mentalmente",
+      "fraquezas": "Arrogância, dependência dos tentáculos"
+    },
+    "extras": {
+      "formacao": "Física nuclear",
+      "relacoes": "Tem uma relação complexa com Peter Parker, inclusive assumindo seu corpo em uma saga",
+      "curiosidades": "Foi o mentor dos Seis Sinistros"
+    }
+  },
+  {
+    "nome_vilao": "Venom",
+    "nome": "Eddie Brock",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Jornalista",
+    "informacoes_do_vilao": {
+      "superpoder": "Força e agilidade sobre-humanas; capacidade de camuflagem",
+      "equipamentos": "Nenhum específico, depende do simbionte",
+      "fraquezas": "Vulnerabilidade ao fogo e som"
+    },
+    "extras": {
+      "formacao": "Jornalismo",
+      "relacoes": "Relação simbiótica com o simbionte alienígena",
+      "curiosidades": "Venom começou como vilão, mas muitas vezes age como anti-herói"
+    }
+  },
+  {
+    "nome_vilao": "Lagarto (Lizard)",
+    "nome": "Dr. Curt Connors",
+    "idade": "Aproximadamente 40-50 anos",
+    "ocupacao": "Cientista, professor",
+    "informacoes_do_vilao": {
+      "superpoder": "Regeneração, força e agilidade aumentadas",
+      "equipamentos": "Nenhum específico",
+      "fraquezas": "Fraqueza emocional em relação à sua família"
+    },
+    "extras": {
+      "formacao": "Biologia",
+      "relacoes": "Mentor de Peter Parker, casado com Martha Connors",
+      "curiosidades": "A transformação em Lagarto é causada por um soro regenerativo experimental"
+    }
+  },
+  {
+    "nome_vilao": "Electro",
+    "nome": "Max Dillon",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Eletricista",
+    "informacoes_do_vilao": {
+      "superpoder": "Manipulação e geração de eletricidade",
+      "equipamentos": "Usa um traje que ajuda a controlar seus poderes",
+      "fraquezas": "Vulnerável à água e a sua própria arrogância"
+    },
+    "extras": {
+      "formacao": "Autodidata em eletricidade",
+      "relacoes": "Inimigo frequente do Homem-Aranha, membro dos Seis Sinistros",
+      "curiosidades": "Seus poderes foram adquiridos após um acidente com cabos de alta tensão"
+    }
+  },
+  {
+    "nome_vilao": "Abutre (Vulture)",
+    "nome": "Adrian Toomes",
+    "idade": "Aproximadamente 70-80 anos",
+    "ocupacao": "Engenheiro, inventor",
+    "informacoes_do_vilao": {
+      "superpoder": "Força aumentada",
+      "equipamentos": "Traje alado que lhe concede voo",
+      "fraquezas": "Velhice e problemas de saúde"
+    },
+    "extras": {
+      "formacao": "Engenharia elétrica",
+      "relacoes": "Frequentemente trabalha com outros vilões",
+      "curiosidades": "Apesar da idade avançada, é um dos inimigos mais persistentes do Homem-Aranha"
+    }
+  },
+  {
+    "nome_vilao": "Homem-Areia (Sandman)",
+    "nome": "Flint Marko (William Baker)",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Criminoso",
+    "informacoes_do_vilao": {
+      "superpoder": "Transformação do corpo em areia",
+      "equipamentos": "Nenhum específico",
+      "fraquezas": "Água e vento forte podem dispersar seu corpo"
+    },
+    "extras": {
+      "formacao": "Sem formação formal",
+      "relacoes": "Membro dos Seis Sinistros, pai de uma filha",
+      "curiosidades": "Muitas vezes retratado como um vilão trágico com motivações complexas"
+    }
+  },
+  {
+    "nome_vilao": "Mystério (Mysterio)",
+    "nome": "Quentin Beck",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Especialista em efeitos especiais, ilusionista",
+    "informacoes_do_vilao": {
+      "superpoder": "Nenhum, utiliza tecnologia avançada",
+      "equipamentos": "Equipamentos de ilusão e drones",
+      "fraquezas": "Sem habilidades sobre-humanas, vulnerável sem seus dispositivos"
+    },
+    "extras": {
+      "formacao": "Efeitos especiais e ilusionismo",
+      "relacoes": "Frequentemente trabalha sozinho",
+      "curiosidades": "Utiliza seus conhecimentos de efeitos especiais para criar ilusões realistas"
+    }
+  },
+  {
+    "nome_vilao": "Rino (Rhino)",
+    "nome": "Aleksei Sytsevich",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Criminoso",
+    "informacoes_do_vilao": {
+      "superpoder": "Força, resistência e durabilidade sobre-humanas",
+      "equipamentos": "Traje de rinoceronte blindado",
+      "fraquezas": "Pouca inteligência, dependência do traje"
+    },
+    "extras": {
+      "formacao": "Sem formação formal",
+      "relacoes": "Membro dos Seis Sinistros",
+      "curiosidades": "Seu traje é permanentemente fundido à sua pele"
+    }
+  },
+  {
+    "nome_vilao": "Chacal (Jackal)",
+    "nome": "Dr. Miles Warren",
+    "idade": "Aproximadamente 40-50 anos",
+    "ocupacao": "Cientista, professor",
+    "informacoes_do_vilao": {
+      "superpoder": "Nenhum natural, usa clonagem e biotecnologia",
+      "equipamentos": "Equipamentos de clonagem e bioengenharia",
+      "fraquezas": "Obsessão por Gwen Stacy"
+    },
+    "extras": {
+      "formacao": "Biologia e genética",
+      "relacoes": "Mentor de Peter Parker, obcecado por Gwen Stacy",
+      "curiosidades": "Criador do clone de Peter Parker, conhecido como Ben Reilly"
+    }
+  },
+  {
+    "nome_vilao": "Escorpião (Scorpion)",
+    "nome": "Mac Gargan",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Detetive privado, criminoso",
+    "informacoes_do_vilao": {
+      "superpoder": "Força, agilidade e resistência sobre-humanas",
+      "equipamentos": "Traje de escorpião com cauda cibernética",
+      "fraquezas": "Vulnerável sem o traje"
+    },
+    "extras": {
+      "formacao": "Detetive particular",
+      "relacoes": "Já foi hospedeiro do simbionte Venom",
+      "curiosidades": "Originalmente contratado por J. Jonah Jameson para caçar o Homem-Aranha"
+    }
+  },
+  {
+    "nome_vilao": "Camaleão (Chameleon)",
+    "nome": "Dmitri Smerdyakov",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Espião, mestre do disfarce",
+    "informacoes_do_vilao": {
+      "superpoder": "Mudança de aparência através de tecnologia",
+      "equipamentos ": "
+      Dispositivos de
+      camuflagem",
+      "fraquezas": "Nenhuma habilidade sobre-humana"
+    },
+    "extras": {
+      "formacao": "Espionagem e disfarce",
+      "relacoes": "Meio-irmão do Kraven, o Caçador",
+      "curiosidades": "Foi o primeiro supervilão enfrentado pelo Homem-Aranha"
+    }
+  },
+  {
+    "nome_vilao": "Rei do Crime (Kingpin)",
+    "nome": "Wilson Fisk",
+    "idade": "Aproximadamente 50-60 anos",
+    "ocupacao": "Chefão do crime",
+    "informacoes_do_vilao": {
+      "superpoder": "Força e resistência acima da média humana",
+      "equipamentos": "Variedade de armas escondidas",
+      "fraquezas": "Arrogância, vulnerabilidade emocional relacionada à sua esposa"
+    },
+    "extras": {
+      "formacao": "Autodidata em combate corpo-a-corpo e táticas criminais",
+      "relacoes": "Inimigo frequente do Demolidor e do Homem-Aranha",
+      "curiosidades": "Sua aparência de gordo esconde músculos poderosos"
+    }
+  },
+  {
+    "nome_vilao": "Shocker",
+    "nome": "Herman Schultz",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Criminoso, engenheiro",
+    "informacoes_do_vilao": {
+      "superpoder": "Nenhum natural, usa tecnologia",
+      "equipamentos": "Luvas vibro-socadoras",
+      "fraquezas": "Dependência das luvas, falta de superpoderes"
+    },
+    "extras": {
+      "formacao": "Engenharia",
+      "relacoes": "Trabalha frequentemente com outros vilões",
+      "curiosidades": "Criou suas luvas enquanto estava preso"
+    }
+  },
+  {
+    "nome_vilao": "Gata Negra (Black Cat)",
+    "nome": "Felicia Hardy",
+    "idade": "Aproximadamente 20-30 anos",
+    "ocupacao": "Ladra",
+    "informacoes_do_vilao": {
+      "superpoder": "Nenhum natural, habilidades de luta e atletismo",
+      "equipamentos": "Equipamentos de arrombamento e garras retráteis",
+      "fraquezas": "Emocionalmente ligada ao Homem-Aranha"
+    },
+    "extras": {
+      "formacao": "Sem formação formal",
+      "relacoes": "Interesse romântico do Homem-Aranha",
+      "curiosidades": "Muitas vezes age como anti-heroína"
+    }
+  },
+  {
+    "nome_vilao": "Kraven, o Caçador (Kraven the Hunter)",
+    "nome": "Sergei Kravinoff",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Caçador",
+    "informacoes_do_vilao": {
+      "superpoder": "Força, agilidade e sentidos aumentados",
+      "equipamentos": "Armas de caça e poções",
+      "fraquezas": "Orgulho excessivo"
+    },
+    "extras": {
+      "formacao": "Auto-didata em técnicas de caça",
+      "relacoes": "Meio-irmão do Camaleão",
+      "curiosidades": "Famoso pelo arco 'A Última Caçada de Kraven'"
+    }
+  },
+  {
+    "nome_vilao": "Morbius",
+    "nome": "Dr. Michael Morbius",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Cientista",
+    "informacoes_do_vilao": {
+      "superpoder": "Força, agilidade e habilidades de vampiro",
+      "equipamentos": "Nenhum específico",
+      "fraquezas": "Sensibilidade à luz solar, necessidade de consumir sangue"
+    },
+    "extras": {
+      "formacao": "Bioquímica",
+      "relacoes": "Conflito com Blade, o Caçador de Vampiros",
+      "curiosidades": "Tornou-se um vampiro vivo após um experimento que deu errado"
+    }
+  },
+  {
+    "nome_vilao": "Duende Macabro (Hobgoblin)",
+    "nome": "Roderick Kingsley (entre outros)",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Empresário, criminoso",
+    "informacoes_do_vilao": {
+      "superpoder": "Força e agilidade aumentadas devido ao soro Goblin",
+      "equipamentos": "Planador e arsenal semelhante ao do Duende Verde",
+      "fraquezas": "Sanidade mental instável"
+    },
+    "extras": {
+      "formacao": "Negócios e ciência",
+      "relacoes": "Assume a identidade de Hobgoblin de outros",
+      "curiosidades": "Diversas pessoas assumiram a identidade de Hobgoblin"
+    }
+  },
+  {
+    "nome_vilao": "Chacal (Jackal)",
+    "nome": "Dr. Miles Warren",
+    "idade": "Aproximadamente 40-50 anos",
+    "ocupacao": "Cientista, professor",
+    "informacoes_do_vilao": {
+      "superpoder": "Nenhum natural, usa clonagem e biotecnologia",
+      "equipamentos": "Equipamentos de clonagem e bioengenharia",
+      "fraquezas": "Obsessão por Gwen Stacy"
+    },
+    "extras": {
+      "formacao": "Biologia e genética",
+      "relacoes": "Mentor de Peter Parker, obcecado por Gwen Stacy",
+      "curiosidades": "Criador do clone de Peter Parker, conhecido como Ben Reilly"
+    }
+  },
+  {
+    "nome_vilao": "Carnificina (Carnage)",
+    "nome": "Cletus Kasady",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Criminoso, psicopata",
+    "informacoes_do_vilao": {
+      "superpoder": "Força, agilidade e durabilidade sobre-humanas, habilidade de criar armas com o simbionte",
+      "equipamentos": "Nenhum específico, depende do simbionte",
+      "fraquezas": "Vulnerabilidade ao som e ao fogo"
+    },
+    "extras": {
+      "formacao": "Nenhuma formação formal",
+      "relacoes": "Filho simbiótico de Venom",
+      "curiosidades": "Considerado um dos vilões mais sádicos e perigosos do Homem-Aranha"
+    }
+  }
+]

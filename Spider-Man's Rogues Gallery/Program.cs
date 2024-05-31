@@ -93,8 +93,8 @@ class Program
         }
         static void pesquisa_vilao()
         {
-            //Agora é com a Julia.😛😛😛😛
-            //Vamo boraaaaaaa
+            Console.WriteLine("Digite o nome do vilão que deseja pesquisar ");
+            string nome = Console.ReadLine()!;
         }
         static void Favoritar_vilao()
         {

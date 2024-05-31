@@ -2,15 +2,15 @@
   {
     "nome_vilao": "Duende Verde (Green Goblin)",
     "nome": "Norman Osborn",
-    "idade": "Varia de acordo com a vers„o, geralmente entre 40 e 50 anos",
-    "ocupacao": "Empres·rio, cientista",
+    "idade": "Varia de acordo com a vers√£o, geralmente entre 40 e 50 anos",
+    "ocupacao": "Empres√°rio, cientista",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa, agilidade e resistÍncia sobre-humanas; fator de cura acelerado",
-      "equipamentos": "Planador, bombas de abÛbora, luvas de choque",
-      "fraquezas": "Sanidade mental inst·vel, dependÍncia do soro Goblin"
+      "superpoder": "For√ßa, agilidade e resist√™ncia sobre-humanas; fator de cura acelerado",
+      "equipamentos": "Planador, bombas de ab√≥bora, luvas de choque",
+      "fraquezas": "Sanidade mental inst√°vel, depend√™ncia do soro Goblin"
     },
     "extras": {
-      "formacao": "CiÍncia e engenharia",
+      "formacao": "Ci√™ncia e engenharia",
       "relacoes": "Pai de Harry Osborn (Duende Verde II), inimigo mortal do Homem-Aranha",
       "curiosidades": "A identidade secreta de Norman como Duende Verde foi um segredo de longa data nos quadrinhos"
     }
@@ -21,13 +21,13 @@
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, engenheiro",
     "informacoes_do_vilao": {
-      "superpoder": "InteligÍncia genial",
-      "equipamentos": "Tent·culos mec‚nicos controlados mentalmente",
-      "fraquezas": "Arrog‚ncia, dependÍncia dos tent·culos"
+      "superpoder": "Intelig√™ncia genial",
+      "equipamentos": "Tent√°culos mec√¢nicos controlados mentalmente",
+      "fraquezas": "Arrog√¢ncia, depend√™ncia dos tent√°culos"
     },
     "extras": {
-      "formacao": "FÌsica nuclear",
-      "relacoes": "Tem uma relaÁ„o complexa com Peter Parker, inclusive assumindo seu corpo em uma saga",
+      "formacao": "F√≠sica nuclear",
+      "relacoes": "Tem uma rela√ß√£o complexa com Peter Parker, inclusive assumindo seu corpo em uma saga",
       "curiosidades": "Foi o mentor dos Seis Sinistros"
     }
   },
@@ -37,14 +37,14 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Jornalista",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa e agilidade sobre-humanas; capacidade de camuflagem",
-      "equipamentos": "Nenhum especÌfico, depende do simbionte",
+      "superpoder": "For√ßa e agilidade sobre-humanas; capacidade de camuflagem",
+      "equipamentos": "Nenhum espec√≠fico, depende do simbionte",
       "fraquezas": "Vulnerabilidade ao fogo e som"
     },
     "extras": {
       "formacao": "Jornalismo",
-      "relacoes": "RelaÁ„o simbiÛtica com o simbionte alienÌgena",
-      "curiosidades": "Venom comeÁou como vil„o, mas muitas vezes age como anti-herÛi"
+      "relacoes": "Rela√ß√£o simbi√≥tica com o simbionte alien√≠gena",
+      "curiosidades": "Venom come√ßou como vil√£o, mas muitas vezes age como anti-her√≥i"
     }
   },
   {
@@ -53,14 +53,14 @@
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, professor",
     "informacoes_do_vilao": {
-      "superpoder": "RegeneraÁ„o, forÁa e agilidade aumentadas",
-      "equipamentos": "Nenhum especÌfico",
-      "fraquezas": "Fraqueza emocional em relaÁ„o ‡ sua famÌlia"
+      "superpoder": "Regenera√ß√£o, for√ßa e agilidade aumentadas",
+      "equipamentos": "Nenhum espec√≠fico",
+      "fraquezas": "Fraqueza emocional em rela√ß√£o √† sua fam√≠lia"
     },
     "extras": {
       "formacao": "Biologia",
       "relacoes": "Mentor de Peter Parker, casado com Martha Connors",
-      "curiosidades": "A transformaÁ„o em Lagarto È causada por um soro regenerativo experimental"
+      "curiosidades": "A transforma√ß√£o em Lagarto √© causada por um soro regenerativo experimental"
     }
   },
   {
@@ -69,14 +69,14 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Eletricista",
     "informacoes_do_vilao": {
-      "superpoder": "ManipulaÁ„o e geraÁ„o de eletricidade",
+      "superpoder": "Manipula√ß√£o e gera√ß√£o de eletricidade",
       "equipamentos": "Usa um traje que ajuda a controlar seus poderes",
-      "fraquezas": "Vulner·vel ‡ ·gua e a sua prÛpria arrog‚ncia"
+      "fraquezas": "Vulner√°vel √† √°gua e a sua pr√≥pria arrog√¢ncia"
     },
     "extras": {
       "formacao": "Autodidata em eletricidade",
       "relacoes": "Inimigo frequente do Homem-Aranha, membro dos Seis Sinistros",
-      "curiosidades": "Seus poderes foram adquiridos apÛs um acidente com cabos de alta tens„o"
+      "curiosidades": "Seus poderes foram adquiridos ap√≥s um acidente com cabos de alta tens√£o"
     }
   },
   {
@@ -85,14 +85,14 @@
     "idade": "Aproximadamente 70-80 anos",
     "ocupacao": "Engenheiro, inventor",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa aumentada",
+      "superpoder": "For√ßa aumentada",
       "equipamentos": "Traje alado que lhe concede voo",
-      "fraquezas": "Velhice e problemas de sa˙de"
+      "fraquezas": "Velhice e problemas de sa√∫de"
     },
     "extras": {
-      "formacao": "Engenharia elÈtrica",
-      "relacoes": "Frequentemente trabalha com outros vilıes",
-      "curiosidades": "Apesar da idade avanÁada, È um dos inimigos mais persistentes do Homem-Aranha"
+      "formacao": "Engenharia el√©trica",
+      "relacoes": "Frequentemente trabalha com outros vil√µes",
+      "curiosidades": "Apesar da idade avan√ßada, √© um dos inimigos mais persistentes do Homem-Aranha"
     }
   },
   {
@@ -101,30 +101,30 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso",
     "informacoes_do_vilao": {
-      "superpoder": "TransformaÁ„o do corpo em areia",
-      "equipamentos": "Nenhum especÌfico",
-      "fraquezas": "¡gua e vento forte podem dispersar seu corpo"
+      "superpoder": "Transforma√ß√£o do corpo em areia",
+      "equipamentos": "Nenhum espec√≠fico",
+      "fraquezas": "√Ågua e vento forte podem dispersar seu corpo"
     },
     "extras": {
-      "formacao": "Sem formaÁ„o formal",
+      "formacao": "Sem forma√ß√£o formal",
       "relacoes": "Membro dos Seis Sinistros, pai de uma filha",
-      "curiosidades": "Muitas vezes retratado como um vil„o tr·gico com motivaÁıes complexas"
+      "curiosidades": "Muitas vezes retratado como um vil√£o tr√°gico com motiva√ß√µes complexas"
     }
   },
   {
-    "nome_vilao": "MystÈrio (Mysterio)",
+    "nome_vilao": "Myst√©rio (Mysterio)",
     "nome": "Quentin Beck",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Especialista em efeitos especiais, ilusionista",
     "informacoes_do_vilao": {
-      "superpoder": "Nenhum, utiliza tecnologia avanÁada",
-      "equipamentos": "Equipamentos de ilus„o e drones",
-      "fraquezas": "Sem habilidades sobre-humanas, vulner·vel sem seus dispositivos"
+      "superpoder": "Nenhum, utiliza tecnologia avan√ßada",
+      "equipamentos": "Equipamentos de ilus√£o e drones",
+      "fraquezas": "Sem habilidades sobre-humanas, vulner√°vel sem seus dispositivos"
     },
     "extras": {
       "formacao": "Efeitos especiais e ilusionismo",
       "relacoes": "Frequentemente trabalha sozinho",
-      "curiosidades": "Utiliza seus conhecimentos de efeitos especiais para criar ilusıes realistas"
+      "curiosidades": "Utiliza seus conhecimentos de efeitos especiais para criar ilus√µes realistas"
     }
   },
   {
@@ -133,14 +133,14 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa, resistÍncia e durabilidade sobre-humanas",
+      "superpoder": "For√ßa, resist√™ncia e durabilidade sobre-humanas",
       "equipamentos": "Traje de rinoceronte blindado",
-      "fraquezas": "Pouca inteligÍncia, dependÍncia do traje"
+      "fraquezas": "Pouca intelig√™ncia, depend√™ncia do traje"
     },
     "extras": {
-      "formacao": "Sem formaÁ„o formal",
+      "formacao": "Sem forma√ß√£o formal",
       "relacoes": "Membro dos Seis Sinistros",
-      "curiosidades": "Seu traje È permanentemente fundido ‡ sua pele"
+      "curiosidades": "Seu traje √© permanentemente fundido √† sua pele"
     }
   },
   {
@@ -151,62 +151,60 @@
     "informacoes_do_vilao": {
       "superpoder": "Nenhum natural, usa clonagem e biotecnologia",
       "equipamentos": "Equipamentos de clonagem e bioengenharia",
-      "fraquezas": "Obsess„o por Gwen Stacy"
+      "fraquezas": "Obsess√£o por Gwen Stacy"
     },
     "extras": {
-      "formacao": "Biologia e genÈtica",
+      "formacao": "Biologia e gen√©tica",
       "relacoes": "Mentor de Peter Parker, obcecado por Gwen Stacy",
       "curiosidades": "Criador do clone de Peter Parker, conhecido como Ben Reilly"
     }
   },
   {
-    "nome_vilao": "Escorpi„o (Scorpion)",
+    "nome_vilao": "Escorpi√£o (Scorpion)",
     "nome": "Mac Gargan",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Detetive privado, criminoso",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa, agilidade e resistÍncia sobre-humanas",
-      "equipamentos": "Traje de escorpi„o com cauda cibernÈtica",
-      "fraquezas": "Vulner·vel sem o traje"
+      "superpoder": "For√ßa, agilidade e resist√™ncia sobre-humanas",
+      "equipamentos": "Traje de escorpi√£o com cauda cibern√©tica",
+      "fraquezas": "Vulner√°vel sem o traje"
     },
     "extras": {
       "formacao": "Detetive particular",
-      "relacoes": "J· foi hospedeiro do simbionte Venom",
-      "curiosidades": "Originalmente contratado por J. Jonah Jameson para caÁar o Homem-Aranha"
+      "relacoes": "J√° foi hospedeiro do simbionte Venom",
+      "curiosidades": "Originalmente contratado por J. Jonah Jameson para ca√ßar o Homem-Aranha"
     }
   },
   {
-    "nome_vilao": "Camale„o (Chameleon)",
+    "nome_vilao": "Camale√£o (Chameleon)",
     "nome": "Dmitri Smerdyakov",
     "idade": "Aproximadamente 30-40 anos",
-    "ocupacao": "Espi„o, mestre do disfarce",
+    "ocupacao": "Espi√£o, mestre do disfarce",
     "informacoes_do_vilao": {
-      "superpoder": "MudanÁa de aparÍncia atravÈs de tecnologia",
-      "equipamentos ": "
-      Dispositivos de
-      camuflagem",
+      "superpoder": "Mudan√ßa de apar√™ncia atrav√©s de tecnologia",
+      "equipamentos": "Dispositivos de camuflagem",
       "fraquezas": "Nenhuma habilidade sobre-humana"
     },
     "extras": {
       "formacao": "Espionagem e disfarce",
-      "relacoes": "Meio-irm„o do Kraven, o CaÁador",
-      "curiosidades": "Foi o primeiro supervil„o enfrentado pelo Homem-Aranha"
+      "relacoes": "Meio-irm√£o do Kraven, o Ca√ßador",
+      "curiosidades": "Foi o primeiro supervil√£o enfrentado pelo Homem-Aranha"
     }
   },
   {
     "nome_vilao": "Rei do Crime (Kingpin)",
     "nome": "Wilson Fisk",
     "idade": "Aproximadamente 50-60 anos",
-    "ocupacao": "Chef„o do crime",
+    "ocupacao": "Chef√£o do crime",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa e resistÍncia acima da mÈdia humana",
+      "superpoder": "For√ßa e resist√™ncia acima da m√©dia humana",
       "equipamentos": "Variedade de armas escondidas",
-      "fraquezas": "Arrog‚ncia, vulnerabilidade emocional relacionada ‡ sua esposa"
+      "fraquezas": "Arrog√¢ncia, vulnerabilidade emocional relacionada √† sua esposa"
     },
     "extras": {
-      "formacao": "Autodidata em combate corpo-a-corpo e t·ticas criminais",
+      "formacao": "Autodidata em combate corpo-a-corpo e t√°ticas criminais",
       "relacoes": "Inimigo frequente do Demolidor e do Homem-Aranha",
-      "curiosidades": "Sua aparÍncia de gordo esconde m˙sculos poderosos"
+      "curiosidades": "Sua apar√™ncia de gordo esconde m√∫sculos poderosos"
     }
   },
   {
@@ -217,11 +215,11 @@
     "informacoes_do_vilao": {
       "superpoder": "Nenhum natural, usa tecnologia",
       "equipamentos": "Luvas vibro-socadoras",
-      "fraquezas": "DependÍncia das luvas, falta de superpoderes"
+      "fraquezas": "Depend√™ncia das luvas, falta de superpoderes"
     },
     "extras": {
       "formacao": "Engenharia",
-      "relacoes": "Trabalha frequentemente com outros vilıes",
+      "relacoes": "Trabalha frequentemente com outros vil√µes",
       "curiosidades": "Criou suas luvas enquanto estava preso"
     }
   },
@@ -232,29 +230,29 @@
     "ocupacao": "Ladra",
     "informacoes_do_vilao": {
       "superpoder": "Nenhum natural, habilidades de luta e atletismo",
-      "equipamentos": "Equipamentos de arrombamento e garras retr·teis",
+      "equipamentos": "Equipamentos de arrombamento e garras retr√°teis",
       "fraquezas": "Emocionalmente ligada ao Homem-Aranha"
     },
     "extras": {
-      "formacao": "Sem formaÁ„o formal",
-      "relacoes": "Interesse rom‚ntico do Homem-Aranha",
-      "curiosidades": "Muitas vezes age como anti-heroÌna"
+      "formacao": "Sem forma√ß√£o formal",
+      "relacoes": "Interesse rom√¢ntico do Homem-Aranha",
+      "curiosidades": "Muitas vezes age como anti-hero√≠na"
     }
   },
   {
-    "nome_vilao": "Kraven, o CaÁador (Kraven the Hunter)",
+    "nome_vilao": "Kraven, o Ca√ßador (Kraven the Hunter)",
     "nome": "Sergei Kravinoff",
     "idade": "Aproximadamente 30-40 anos",
-    "ocupacao": "CaÁador",
+    "ocupacao": "Ca√ßador",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa, agilidade e sentidos aumentados",
-      "equipamentos": "Armas de caÁa e poÁıes",
+      "superpoder": "For√ßa, agilidade e sentidos aumentados",
+      "equipamentos": "Armas de ca√ßa e po√ß√µes",
       "fraquezas": "Orgulho excessivo"
     },
     "extras": {
-      "formacao": "Auto-didata em tÈcnicas de caÁa",
-      "relacoes": "Meio-irm„o do Camale„o",
-      "curiosidades": "Famoso pelo arco 'A ⁄ltima CaÁada de Kraven'"
+      "formacao": "Auto-didata em t√©cnicas de ca√ßa",
+      "relacoes": "Meio-irm√£o do Camale√£o",
+      "curiosidades": "Famoso pelo arco 'A √öltima Ca√ßada de Kraven'"
     }
   },
   {
@@ -263,28 +261,28 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Cientista",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa, agilidade e habilidades de vampiro",
-      "equipamentos": "Nenhum especÌfico",
-      "fraquezas": "Sensibilidade ‡ luz solar, necessidade de consumir sangue"
+      "superpoder": "For√ßa, agilidade e habilidades de vampiro",
+      "equipamentos": "Nenhum espec√≠fico",
+      "fraquezas": "Sensibilidade √† luz solar, necessidade de consumir sangue"
     },
     "extras": {
-      "formacao": "BioquÌmica",
-      "relacoes": "Conflito com Blade, o CaÁador de Vampiros",
-      "curiosidades": "Tornou-se um vampiro vivo apÛs um experimento que deu errado"
+      "formacao": "Bioqu√≠mica",
+      "relacoes": "Conflito com Blade, o Ca√ßador de Vampiros",
+      "curiosidades": "Tornou-se um vampiro vivo ap√≥s um experimento que deu errado"
     }
   },
   {
     "nome_vilao": "Duende Macabro (Hobgoblin)",
     "nome": "Roderick Kingsley (entre outros)",
     "idade": "Aproximadamente 30-40 anos",
-    "ocupacao": "Empres·rio, criminoso",
+    "ocupacao": "Empres√°rio, criminoso",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa e agilidade aumentadas devido ao soro Goblin",
+      "superpoder": "For√ßa e agilidade aumentadas devido ao soro Goblin",
       "equipamentos": "Planador e arsenal semelhante ao do Duende Verde",
-      "fraquezas": "Sanidade mental inst·vel"
+      "fraquezas": "Sanidade mental inst√°vel"
     },
     "extras": {
-      "formacao": "NegÛcios e ciÍncia",
+      "formacao": "Neg√≥cios e ci√™ncia",
       "relacoes": "Assume a identidade de Hobgoblin de outros",
       "curiosidades": "Diversas pessoas assumiram a identidade de Hobgoblin"
     }
@@ -297,10 +295,10 @@
     "informacoes_do_vilao": {
       "superpoder": "Nenhum natural, usa clonagem e biotecnologia",
       "equipamentos": "Equipamentos de clonagem e bioengenharia",
-      "fraquezas": "Obsess„o por Gwen Stacy"
+      "fraquezas": "Obsess√£o por Gwen Stacy"
     },
     "extras": {
-      "formacao": "Biologia e genÈtica",
+      "formacao": "Biologia e gen√©tica",
       "relacoes": "Mentor de Peter Parker, obcecado por Gwen Stacy",
       "curiosidades": "Criador do clone de Peter Parker, conhecido como Ben Reilly"
     }
@@ -311,14 +309,14 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso, psicopata",
     "informacoes_do_vilao": {
-      "superpoder": "ForÁa, agilidade e durabilidade sobre-humanas, habilidade de criar armas com o simbionte",
-      "equipamentos": "Nenhum especÌfico, depende do simbionte",
+      "superpoder": "For√ßa, agilidade e durabilidade sobre-humanas, habilidade de criar armas com o simbionte",
+      "equipamentos": "Nenhum espec√≠fico, depende do simbionte",
       "fraquezas": "Vulnerabilidade ao som e ao fogo"
     },
     "extras": {
-      "formacao": "Nenhuma formaÁ„o formal",
-      "relacoes": "Filho simbiÛtico de Venom",
-      "curiosidades": "Considerado um dos vilıes mais s·dicos e perigosos do Homem-Aranha"
+      "formacao": "Nenhuma forma√ß√£o formal",
+      "relacoes": "Filho simbi√≥tico de Venom",
+      "curiosidades": "Considerado um dos vil√µes mais s√°dicos e perigosos do Homem-Aranha"
     }
   }
 ]

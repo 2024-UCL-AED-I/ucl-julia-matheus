@@ -94,10 +94,12 @@ class Program
         static void pesquisa_vilao()
         {
             //Agora é com a Julia.😛😛😛😛
+            //Vamo boraaaaaaa
         }
         static void Favoritar_vilao()
         {
             //Agora é com a Julia.😛😛😛😛
+            //deixa comigo que é sucesso
         }
         static void Exibir_lista_de_viloes_favoritos()
         {

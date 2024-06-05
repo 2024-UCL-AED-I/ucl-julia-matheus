@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\clabu\\source\\repos\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\",
+  "WorkspaceRootPath": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\clabu\\source\\repos\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\vilao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:vilao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\mathe\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\modelos\\vilao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:modelos\\vilao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\clabu\\source\\repos\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\mathe\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,34 +18,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "vilao.cs",
-              "DocumentMoniker": "C:\\Users\\clabu\\Source\\Repos\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\vilao.cs",
-              "RelativeDocumentMoniker": "vilao.cs",
-              "ToolTip": "C:\\Users\\clabu\\Source\\Repos\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\vilao.cs",
-              "RelativeToolTip": "vilao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Modelos\\vilao.cs",
+              "RelativeDocumentMoniker": "Modelos\\vilao.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Modelos\\vilao.cs",
+              "RelativeToolTip": "Modelos\\vilao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T03:36:45.314Z",
+              "WhenOpened": "2024-05-31T05:34:13.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\clabu\\source\\repos\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\clabu\\source\\repos\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T01:11:14.022Z",
               "EditorCaption": ""

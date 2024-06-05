@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\clabu\\Source\\Repos\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj": {}
+    "C:\\Users\\mathe\\Source\\Repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\clabu\\Source\\Repos\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj": {
+    "C:\\Users\\mathe\\Source\\Repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\clabu\\Source\\Repos\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\Source\\Repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj",
         "projectName": "Spider-Man's Rogues Gallery",
-        "projectPath": "C:\\Users\\clabu\\Source\\Repos\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj",
-        "packagesPath": "C:\\Users\\clabu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\clabu\\Source\\Repos\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\obj\\",
+        "projectPath": "C:\\Users\\mathe\\Source\\Repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathe\\Source\\Repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\clabu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

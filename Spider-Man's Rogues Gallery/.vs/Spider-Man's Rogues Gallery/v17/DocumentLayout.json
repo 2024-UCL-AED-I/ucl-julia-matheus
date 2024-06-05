@@ -21,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,6 +32,10 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "lista_vilao.json",
@@ -39,7 +43,7 @@
               "RelativeDocumentMoniker": "..\\lista_vilao.json",
               "ToolTip": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\lista_vilao.json",
               "RelativeToolTip": "..\\lista_vilao.json",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAAAAEAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-06-05T12:02:25.723Z",
               "EditorCaption": ""
@@ -52,7 +56,7 @@
               "RelativeDocumentMoniker": "Class_vilao.cs",
               "ToolTip": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Class_vilao.cs",
               "RelativeToolTip": "Class_vilao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwCcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T11:49:55.69Z",
               "EditorCaption": ""
@@ -65,7 +69,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T01:11:14.022Z",
               "EditorCaption": ""

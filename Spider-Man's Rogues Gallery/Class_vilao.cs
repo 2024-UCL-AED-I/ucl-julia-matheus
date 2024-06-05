@@ -37,7 +37,7 @@ namespace Spider_Man_s_Rogues_Gallery
         }
         public void Exibir_detalhes_do_vilao()
         {
-            Console.WriteLine($"Nome do Vilão: {nome_vilao}");
+            Console.WriteLine($"Nome do Vilão: {nome_do_vilao}");
             Console.WriteLine($"Nome: {nome}");
             Console.WriteLine($"Idade: {idade}");
             Console.WriteLine($"Ocupação: {ocupacao}");

@@ -15,24 +15,30 @@ class Program
         List<class_vilao> list_viloes = new List<class_vilao>();
         String caminho_do_arquivojson = @"C:\Users\matheus.souza\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
-        list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);      
-
-
-
+        list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);  
+        
         void Pesquisa_Vilao() 
         {
-            
+            Console.WriteLine("\nDigite o nome do Vilão que deseja pesquisar.");
             string nome_do_vilao = Console.ReadLine()!;
 
             class_vilao vilaoEncontrado = list_viloes.Find(v => v.nome_do_vilao.Equals(nome_do_vilao, StringComparison.OrdinalIgnoreCase));
 
             if (vilaoEncontrado != null)
             {
+                Console.WriteLine("\n");
                 vilaoEncontrado.Exibir_detalhes_do_vilao();
             }
             else
             {
                 Console.WriteLine("Vilão não encontrado.");
+            }
+
+            Console.WriteLine("Deseja favoritar este vilão ? s/n");
+            string escolha = Console.ReadLine()!;
+            if (escolha == "s") 
+            {
+                list_vilao_favoritados.Add(vilaoEncontrado);
             }
 
         }
@@ -96,7 +102,6 @@ class Program
                 switch (n)
                 {
                     case 1:
-                        Console.WriteLine("Opção 1");
                         Pesquisa_Vilao();
                         break;
                     case 2:

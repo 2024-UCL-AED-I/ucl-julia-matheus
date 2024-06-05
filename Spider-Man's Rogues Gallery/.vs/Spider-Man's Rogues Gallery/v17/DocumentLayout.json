@@ -1,14 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\",
+  "WorkspaceRootPath": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\mathe\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\modelos\\vilao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:modelos\\vilao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\matheus.souza\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\mathe\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\matheus.souza\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\class_vilao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:class_vilao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\lista_vilao.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +21,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -30,26 +33,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "vilao.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Modelos\\vilao.cs",
-              "RelativeDocumentMoniker": "Modelos\\vilao.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Modelos\\vilao.cs",
-              "RelativeToolTip": "Modelos\\vilao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T05:34:13.523Z",
+              "DocumentIndex": 2,
+              "Title": "lista_vilao.json",
+              "DocumentMoniker": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\lista_vilao.json",
+              "RelativeDocumentMoniker": "..\\lista_vilao.json",
+              "ToolTip": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\lista_vilao.json",
+              "RelativeToolTip": "..\\lista_vilao.json",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-05T12:02:25.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Class_vilao.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Class_vilao.cs",
+              "RelativeDocumentMoniker": "Class_vilao.cs",
+              "ToolTip": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Class_vilao.cs",
+              "RelativeToolTip": "Class_vilao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:49:55.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
+              "ToolTip": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T01:11:14.022Z",
               "EditorCaption": ""

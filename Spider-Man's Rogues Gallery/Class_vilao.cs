@@ -5,9 +5,9 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Spider_Man_s_Rogues_Gallery.Modelos
+namespace Spider_Man_s_Rogues_Gallery
 {
-    internal class vilao
+    public class class_vilao
     {
         [JsonPropertyName("nome_vilao")]
         public string? nome_vilao { get; set; }
@@ -16,7 +16,7 @@ namespace Spider_Man_s_Rogues_Gallery.Modelos
         public string? nome { get; set; }
 
         [JsonPropertyName("idade")]
-        public string? idade { get; set; }
+        public string idade { get; set; }
 
         [JsonPropertyName("ocupacao")]
         public string? ocupacao { get; set; }

@@ -4,24 +4,38 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using Spider_Man_s_Rogues_Gallery;
+using System.Net.NetworkInformation;
 
 
 class Program
 {
     static void Main()
     {
+        List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
         List<class_vilao> list_viloes = new List<class_vilao>();
         String caminho_do_arquivojson = @"C:\Users\matheus.souza\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
-        list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
+        list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);      
 
-        foreach (class_vilao vilao in list_viloes)
+
+
+        void Pesquisa_Vilao() 
         {
-            vilao.Exibir_detalhes_do_vilao();
+            
+            string nome_do_vilao = Console.ReadLine()!;
+
+            class_vilao vilaoEncontrado = list_viloes.Find(v => v.nome_do_vilao.Equals(nome_do_vilao, StringComparison.OrdinalIgnoreCase));
+
+            if (vilaoEncontrado != null)
+            {
+                vilaoEncontrado.Exibir_detalhes_do_vilao();
+            }
+            else
+            {
+                Console.WriteLine("Vilão não encontrado.");
+            }
+
         }
-
-
-
 
         void exibir_msg()
         {
@@ -82,7 +96,8 @@ class Program
                 switch (n)
                 {
                     case 1:
-                        //Console.WriteLine("Opção 1");
+                        Console.WriteLine("Opção 1");
+                        Pesquisa_Vilao();
                         break;
                     case 2:
                         //Console.WriteLine("Opção 2");

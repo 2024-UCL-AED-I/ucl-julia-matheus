@@ -10,7 +10,7 @@ namespace Spider_Man_s_Rogues_Gallery
     public class class_vilao
     {
         [JsonPropertyName("nome_vilao")]
-        public string? nome_vilao { get; set; }
+        public string? nome_do_vilao { get; set; }
 
         [JsonPropertyName("nome")]
         public string? nome { get; set; }

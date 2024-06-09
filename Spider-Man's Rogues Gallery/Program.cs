@@ -34,14 +34,18 @@ class Program
             else
             {
                 Console.WriteLine("Vilão não encontrado.");
+                Menu();
             }
 
             Console.WriteLine("Deseja favoritar este vilão ? s/n");
             string escolha = Console.ReadLine()!;
             if (escolha == "s") 
             {
-                list_vilao_favoritados.Add(vilaoEncontrado);
+                list_vilao_favoritados.Add(vilaoEncontrado!);
+                Console.WriteLine("Vilão adicionado com sucesso !");
             }
+            Console.WriteLine("---------------------------------------------------------------------------------------------------");
+            Menu();
 
         }
 
@@ -89,9 +93,8 @@ class Program
         void exibir_opcoes()
         {
             Console.WriteLine("Digite 1 para pesquisar um vilão");
-            Console.WriteLine("Digite 2 para Favoritar um Vilão");
-            Console.WriteLine("Digite 3 para mostrar sua lista de vilões favoritos");
-            Console.WriteLine("Digite 4 para excluir um vilão da lista");
+            Console.WriteLine("Digite 2 para mostrar sua lista de vilões favoritos");
+            Console.WriteLine("Digite 3 para excluir um vilão da lista");
             Console.WriteLine("\n Digite sua opção!");
         }
         void coleta_opcao()
@@ -107,14 +110,10 @@ class Program
                         Pesquisa_Vilao();
                         break;
                     case 2:
-                        //Console.WriteLine("Opção 2");
-                        
-                        break;
-                    case 3:
                         //Console.WriteLine("Opção 3");
                         Exibir_lista_de_viloes_favoritos();
                         break;
-                    case 4:
+                    case 3:
                         //Console.WriteLine("Opção 4");
                         Excluir_vilao_da_lista();
                         break;
@@ -131,8 +130,24 @@ class Program
             exibir_opcoes();
             coleta_opcao();
         }
-        static void Exibir_lista_de_viloes_favoritos()
+         void Exibir_lista_de_viloes_favoritos()
         {
+            Console.Clear();
+            list_vilao_favoritados.Add(list_viloes[3]);
+            list_vilao_favoritados.Add(list_viloes[2]);
+            if (list_vilao_favoritados.Count > 0 )
+            {
+                foreach(class_vilao vilao in list_vilao_favoritados)
+                {
+                    Console.WriteLine(vilao.nome_do_vilao);
+                    Console.WriteLine("---------------------------------------------------------------------------------------------------");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Lista vazia");
+            }
+            Menu();
 
         }
         static void Excluir_vilao_da_lista()

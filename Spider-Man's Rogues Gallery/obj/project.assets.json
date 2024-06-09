@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\matheus.souza\\.nuget\\packages\\": {}
+    "C:\\Users\\clabu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj",
+      "projectUniqueName": "C:\\Users\\clabu\\source\\repos\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj",
       "projectName": "Spider-Man's Rogues Gallery",
-      "projectPath": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj",
-      "packagesPath": "C:\\Users\\matheus.souza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\obj\\",
+      "projectPath": "C:\\Users\\clabu\\source\\repos\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\Spider-Man's Rogues Gallery.csproj",
+      "packagesPath": "C:\\Users\\clabu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\clabu\\source\\repos\\ucl-julia-matheus\\Spider-Man's Rogues Gallery\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\matheus.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\clabu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -29,7 +29,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Projeto OGMO\\ogmoes-packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -68,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

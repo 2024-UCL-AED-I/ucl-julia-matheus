@@ -13,7 +13,9 @@ class Program
     {
         List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
         List<class_vilao> list_viloes = new List<class_vilao>();
-        String caminho_do_arquivojson = @"C:\Users\matheus.souza\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
+        String caminho_do_arquivojson = @"C:\Users\clabu\source\repos\ucl-julia-matheus\lista_vilao.json";
+        //caminho Julia: @"C:\Users\clabu\source\repos\ucl-julia-matheus\lista_vilao.json";
+        //caminho Matheus: @"C:\Users\matheus.souza\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
         list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);  
         

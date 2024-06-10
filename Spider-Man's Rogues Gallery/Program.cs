@@ -13,9 +13,10 @@ class Program
     {
         List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
         List<class_vilao> list_viloes = new List<class_vilao>();
-        String caminho_do_arquivojson = @"C:\Users\clabu\source\repos\ucl-julia-matheus\lista_vilao.json";
+        String caminho_do_arquivojson = @"C:\Users\matheus.souza\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
         //caminho Julia: @"C:\Users\clabu\source\repos\ucl-julia-matheus\lista_vilao.json";
-        //caminho Matheus: @"C:\Users\matheus.souza\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
+        //caminho Matheus - Trabalho: @"C:\Users\matheus.souza\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
+        //caminho Matheus - casa: @"C:";
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
         list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);  
         
@@ -92,6 +93,8 @@ class Program
         }
         void exibir_opcoes()
         {
+            Console.WriteLine("------------------------- MENU -------------------------");
+            //PODEMOS ESTILIZAR ESSE MENU.                                                                                                                                                                                                                 
             Console.WriteLine("Digite 1 para pesquisar um vilão");
             Console.WriteLine("Digite 2 para mostrar sua lista de vilões favoritos");
             Console.WriteLine("Digite 3 para excluir um vilão da lista");
@@ -133,20 +136,29 @@ class Program
          void Exibir_lista_de_viloes_favoritos()
         {
             Console.Clear();
-            list_vilao_favoritados.Add(list_viloes[3]);
-            list_vilao_favoritados.Add(list_viloes[2]);
+            int rep = list_viloes.Count;
+            for (int i = 0; i < rep; i++)
+            {
+                list_vilao_favoritados.Add(list_viloes[i]);
+            }
             if (list_vilao_favoritados.Count > 0 )
             {
-                foreach(class_vilao vilao in list_vilao_favoritados)
+                int i = 1;
+                foreach (class_vilao vilao in list_vilao_favoritados)
                 {
-                    Console.WriteLine(vilao.nome_do_vilao);
-                    Console.WriteLine("---------------------------------------------------------------------------------------------------");
+                    
+                    Console.Write($"{i} - ");
+                    Console.Write(vilao.nome_do_vilao);
+                    Console.WriteLine("");
+                    i++;
+                                     
                 }
             }
             else
             {
                 Console.WriteLine("Lista vazia");
             }
+            Console.WriteLine("");
             Menu();
 
         }

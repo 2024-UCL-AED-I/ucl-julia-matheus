@@ -130,12 +130,14 @@ class Program
         }
         void Menu()
         {
+            Console.Clear();
             exibir_opcoes();
             coleta_opcao();
         }
          void Exibir_lista_de_viloes_favoritos()
         {
             Console.Clear();
+            Console.WriteLine("Exibindo todos os vilões Favoritados");
             int rep = list_viloes.Count;
             for (int i = 0; i < rep; i++)
             {
@@ -163,6 +165,10 @@ class Program
 
         }
         static void Excluir_vilao_da_lista()
+        {
+
+        }
+        void Exibir_Titulo_da_opcao()
         {
 
         }

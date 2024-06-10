@@ -22,14 +22,15 @@ class Program
         
         void Pesquisa_Vilao() 
         {
-            Console.WriteLine("\nDigite o nome do Vilão que deseja pesquisar.");
+            Console.Clear();
+            Exibir_Titulo_da_opcao("Pesquisando vilão...");
+            Console.WriteLine("Digite o nome do Vilão que deseja pesquisar.");
             string nome_do_vilao = Console.ReadLine()!;
-
+            Console.WriteLine("\n");
             class_vilao vilaoEncontrado = list_viloes.Find(v => v.nome_do_vilao.Equals(nome_do_vilao, StringComparison.OrdinalIgnoreCase));
 
             if (vilaoEncontrado != null)
             {
-                Console.WriteLine("\n");
                 vilaoEncontrado.Exibir_detalhes_do_vilao();
             }
             else
@@ -38,7 +39,7 @@ class Program
                 Menu();
             }
 
-            Console.WriteLine("Deseja favoritar este vilão ? s/n");
+            Console.WriteLine("\nDeseja favoritar este vilão ? (s/n)");
             string escolha = Console.ReadLine()!;
             if (escolha == "s") 
             {
@@ -46,8 +47,10 @@ class Program
                 Console.WriteLine("Vilão adicionado com sucesso !");
             }
             Console.WriteLine("---------------------------------------------------------------------------------------------------");
+            Console.WriteLine("\nDigite qualquer tecla para voltar ao Menu Principal!");
+            Console.ReadLine();
+            Console.Clear();
             Menu();
-
         }
 
         void exibir_msg()
@@ -93,12 +96,20 @@ class Program
         }
         void exibir_opcoes()
         {
-            Console.WriteLine("------------------------- MENU -------------------------");
-            //PODEMOS ESTILIZAR ESSE MENU.                                                                                                                                                                                                                 
+            int qtd_Letras = "Digite 2 para mostrar sua lista de vilões favoritos".Length;
+            string espaço = string.Empty.PadLeft(qtd_Letras/2, ' ');
+            Console.WriteLine(espaço+"MENU");
+            //PODEMOS ESTILIZAR ESSE MENU.
+            
+            string molde = string.Empty.PadLeft(qtd_Letras, '-');
+
+            Console.WriteLine(molde);
             Console.WriteLine("Digite 1 para pesquisar um vilão");
             Console.WriteLine("Digite 2 para mostrar sua lista de vilões favoritos");
             Console.WriteLine("Digite 3 para excluir um vilão da lista");
-            Console.WriteLine("\n Digite sua opção!");
+            Console.WriteLine(molde);
+
+            Console.WriteLine("Digite sua opção!");
         }
         void coleta_opcao()
         {
@@ -130,14 +141,13 @@ class Program
         }
         void Menu()
         {
-            Console.Clear();
             exibir_opcoes();
             coleta_opcao();
         }
-         void Exibir_lista_de_viloes_favoritos()
+        void Exibir_lista_de_viloes_favoritos()
         {
             Console.Clear();
-            Console.WriteLine("Exibindo todos os vilões Favoritados");
+            Exibir_Titulo_da_opcao("Exibindo todos os vilões Favoritados");
             int rep = list_viloes.Count;
             for (int i = 0; i < rep; i++)
             {
@@ -161,16 +171,23 @@ class Program
                 Console.WriteLine("Lista vazia");
             }
             Console.WriteLine("");
+            Console.WriteLine("Digite qualquer tecla para voltar para o menu!");
+            Console.ReadLine();
             Menu();
-
         }
-        static void Excluir_vilao_da_lista()
+        void Excluir_vilao_da_lista()
         {
-
+            Console.Clear();
+            Exibir_Titulo_da_opcao("Excluindo vilão da lista...");
+            Menu();
         }
-        void Exibir_Titulo_da_opcao()
+        void Exibir_Titulo_da_opcao(string titulo)
         {
-
+            int qtd_Letras = titulo.Length;
+            string molde =  string.Empty.PadLeft(qtd_Letras, '*');
+            Console.WriteLine(molde);
+            Console.WriteLine(titulo);
+            Console.WriteLine(molde+"\n");
         }
         exibir_msg();
         Menu();

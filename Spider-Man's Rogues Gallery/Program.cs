@@ -37,7 +37,8 @@ class Program
         {
             Console.Clear();
             Exibir_Titulo_da_opcao("Pesquisando vilão...");
-            Console.WriteLine("Digite o nome do Vilão que deseja pesquisar.");
+            Exibi_lista(list_viloes);
+            Console.WriteLine("Digite o nome do Vilão que deseja ver os dados.");
             string nome_do_vilao = Console.ReadLine()!;
             Console.WriteLine("\n");
             class_vilao vilaoEncontrado = list_viloes.Find(v => v.nome_do_vilao.Equals(nome_do_vilao, StringComparison.OrdinalIgnoreCase));
@@ -167,24 +168,7 @@ class Program
         {    
             Console.Clear();
             Exibir_Titulo_da_opcao("Exibindo todos os vilões Favoritados");
-            if (list_vilao_favoritados.Count > 0)
-            {
-                int i = 1;
-                foreach (class_vilao vilao in list_vilao_favoritados)
-                {
-                    
-                    Console.Write($"{i} - ");
-                    Console.Write(vilao.nome_do_vilao);
-                    Console.WriteLine("");
-                    i++;
-                                     
-                }
-            }
-            else
-            {
-                Console.WriteLine("Lista vazia");
-            }
-            Console.WriteLine("");
+            Exibi_lista(list_vilao_favoritados);
             finaliza_funcao();
         }
         void Excluir_vilao_da_lista()
@@ -192,6 +176,7 @@ class Program
             Console.Clear();
             Exibir_Titulo_da_opcao("Excluindo vilão da lista...");
             Console.WriteLine("Qual vilão deseja retirar da lista de Favoritos ?");
+            Exibi_lista(list_vilao_favoritados);
             string nome = Console.ReadLine()!;
 
             class_vilao vilaoEncontrado = list_vilao_favoritados.Find(v => v.nome_do_vilao.Equals(nome, StringComparison.OrdinalIgnoreCase));
@@ -222,6 +207,27 @@ class Program
             Console.ReadLine();
             Console.Clear();
             Menu();
+        }
+        void Exibi_lista(List<class_vilao> lista)
+        {
+            if (lista.Count > 0)
+            {
+                int i = 1;
+                foreach (class_vilao vilao in lista)
+                {
+
+                    Console.Write($"{i} - ");
+                    Console.Write(vilao.nome_do_vilao);
+                    Console.WriteLine("");
+                    i++;
+
+                }
+            }
+            else
+            {
+                Console.WriteLine("Lista vazia");
+            }
+            Console.WriteLine("");
         }
         exibir_msg();
         Menu();

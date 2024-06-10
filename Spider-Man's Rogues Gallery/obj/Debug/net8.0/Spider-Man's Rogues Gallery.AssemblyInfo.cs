@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Spider-Man\'s Rogues Gallery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c1d088505d9cd7d1532016a543d0cc1bb46f49a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48731ed7b7a95f6d8398ae3b4828b77bc064611d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Spider-Man\'s Rogues Gallery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Spider-Man\'s Rogues Gallery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

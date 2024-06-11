@@ -1,6 +1,6 @@
 [
   {
-    "nome_vilao": "Duende Verde (Green Goblin)",
+    "nome_vilao": "Duende Verde",
     "nome": "Norman Osborn",
     "idade": "Varia de acordo com a versão, geralmente entre 40 e 50 anos",
     "ocupacao": "Empresário, cientista",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "nome_vilao": "Doutor Octopus (Doctor Octopus)",
+    "nome_vilao": "Doutor Octopus",
     "nome": "Otto Octavius",
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, engenheiro",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "nome_vilao": "Lagarto (Lizard)",
+    "nome_vilao": "Lagarto",
     "nome": "Dr. Curt Connors",
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, professor",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "nome_vilao": "Abutre (Vulture)",
+    "nome_vilao": "Abutre",
     "nome": "Adrian Toomes",
     "idade": "Aproximadamente 70-80 anos",
     "ocupacao": "Engenheiro, inventor",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "nome_vilao": "Homem-Areia (Sandman)",
+    "nome_vilao": "Homem Areia",
     "nome": "Flint Marko (William Baker)",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso",
@@ -112,7 +112,7 @@
     }
   },
   {
-    "nome_vilao": "Mystério (Mysterio)",
+    "nome_vilao": "Mystério",
     "nome": "Quentin Beck",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Especialista em efeitos especiais, ilusionista",
@@ -128,7 +128,7 @@
     }
   },
   {
-    "nome_vilao": "Rino (Rhino)",
+    "nome_vilao": "Rino",
     "nome": "Aleksei Sytsevich",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "nome_vilao": "Chacal (Jackal)",
+    "nome_vilao": "Chacal",
     "nome": "Dr. Miles Warren",
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, professor",
@@ -160,7 +160,7 @@
     }
   },
   {
-    "nome_vilao": "Escorpião (Scorpion)",
+    "nome_vilao": "Escorpião",
     "nome": "Mac Gargan",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Detetive privado, criminoso",
@@ -176,7 +176,7 @@
     }
   },
   {
-    "nome_vilao": "Camaleão (Chameleon)",
+    "nome_vilao": "Camaleão",
     "nome": "Dmitri Smerdyakov",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Espião, mestre do disfarce",
@@ -192,7 +192,7 @@
     }
   },
   {
-    "nome_vilao": "Rei do Crime (Kingpin)",
+    "nome_vilao": "Rei do Crime",
     "nome": "Wilson Fisk",
     "idade": "Aproximadamente 50-60 anos",
     "ocupacao": "Chefão do crime",
@@ -224,7 +224,7 @@
     }
   },
   {
-    "nome_vilao": "Gata Negra (Black Cat)",
+    "nome_vilao": "Gata Negra",
     "nome": "Felicia Hardy",
     "idade": "Aproximadamente 20-30 anos",
     "ocupacao": "Ladra",
@@ -240,7 +240,7 @@
     }
   },
   {
-    "nome_vilao": "Kraven, o Caçador (Kraven the Hunter)",
+    "nome_vilao": "Kraven, o Caçador",
     "nome": "Sergei Kravinoff",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Caçador",
@@ -272,7 +272,7 @@
     }
   },
   {
-    "nome_vilao": "Duende Macabro (Hobgoblin)",
+    "nome_vilao": "Duende Macabro",
     "nome": "Roderick Kingsley (entre outros)",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Empresário, criminoso",
@@ -288,7 +288,7 @@
     }
   },
   {
-    "nome_vilao": "Chacal (Jackal)",
+    "nome_vilao": "Chacal",
     "nome": "Dr. Miles Warren",
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, professor",
@@ -304,7 +304,7 @@
     }
   },
   {
-    "nome_vilao": "Carnificina (Carnage)",
+    "nome_vilao": "Carnificina",
     "nome": "Cletus Kasady",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso, psicopata",

@@ -25,8 +25,8 @@ class Program
             Console.Clear();
             Exibir_Titulo_da_opcao("Pesquisando vilão...");
             Exibi_lista(list_viloes);
-            Console.WriteLine("Digite o nome do Vilão que deseja ver os dados.");
-            string nome_do_vilao = Console.ReadLine()!;
+            Console.WriteLine("\nDigite o nome ou Numero do Vilão que deseja ver os dados.");
+            string nome_do_vilao = Console.ReadLine();
             Console.WriteLine("---------------------------------------------------------------------------------------------------");
             Console.WriteLine("");
             class_vilao vilaoEncontrado = list_viloes.Find(v => v.nome_do_vilao.Equals(nome_do_vilao, StringComparison.OrdinalIgnoreCase));
@@ -190,6 +190,13 @@ class Program
                     list_vilao_favoritados.Remove(vilaoEncontrado);
                     Console.WriteLine($"O vilão {nome} foi removido com sucesso!");
                 }
+                if (int.Parse(nome) <= list_viloes.Count)
+                {
+                    vilaoEncontrado = list_vilao_favoritados[(int.Parse(nome) - 1)];
+                    list_vilao_favoritados.Remove(vilaoEncontrado);
+                    Console.WriteLine($"O vilão: ({vilaoEncontrado.nome_do_vilao}) foi removido com sucesso!");
+
+                }
                 else
                 {
                     Console.WriteLine("Vilão não foi encontrado!");
@@ -197,7 +204,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("\nA sua lista está Vazia!!\n");
+                Console.WriteLine("\nA sua lista está Vazia!!");
             }
             finaliza_funcao();
         }
@@ -211,7 +218,7 @@ class Program
         }
         void finaliza_funcao()
         {
-            Console.WriteLine("Digite qualquer tecla para voltar ao menu!");
+            Console.WriteLine("\nDigite qualquer tecla para voltar ao menu!");
             Console.ReadLine();
             Console.Clear();
             Menu();
@@ -231,9 +238,8 @@ class Program
             }
             else
             {
-                Console.WriteLine("Lista vazia");
+                Console.WriteLine("Lista vazia!!");
             }
-                Console.WriteLine("");
         }
         exibir_msg();
         Menu();

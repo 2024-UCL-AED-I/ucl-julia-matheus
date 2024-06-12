@@ -50,8 +50,15 @@ class Program
             string escolha = Console.ReadLine()!;
             if (escolha == "s" || escolha == "S") 
             {
+                if (!list_vilao_favoritados.Contains(vilaoEncontrado)) 
+                { 
                 list_vilao_favoritados.Add(vilaoEncontrado!);
                 Console.WriteLine("Vilão adicionado com sucesso !!");
+                }
+                else
+                {
+                    Console.WriteLine("Vilão já presente na sua lista!!");
+                }
             }
             Console.WriteLine("---------------------------------------------------------------------------------------------------");
             finaliza_funcao();

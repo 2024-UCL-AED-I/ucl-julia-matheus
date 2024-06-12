@@ -19,7 +19,46 @@ class Program
         //Como é feita a converção do arquivo JSON!!
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
         list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
-        
+
+        void coleta_opcao()
+        {
+            int n;
+            bool continuar = false;
+            do
+            {
+                n = int.Parse(Console.ReadLine()!);
+                switch (n)
+                {
+                    case 1:
+                        Pesquisa_Vilao();
+                        break;
+                    case 2:
+                        Exibir_lista_de_viloes_favoritos();
+                        break;
+                    case 3:
+                        //Console.WriteLine("Opção 4");
+                        Excluir_vilao_da_lista();
+                        break;
+                    case 0:
+                        Console.WriteLine("\nPrograma encerrado!!");
+                        Console.WriteLine("Obridago !!");
+                        return;
+                    default:
+                        Console.WriteLine("Opção inválida!!");
+                        Console.WriteLine("Tente Novamente");
+                        continuar = true;
+                        break;
+                    case -100:
+                        Console.WriteLine("Você encontrou nosso easter egg.");
+                        Console.WriteLine("PROGRAMA DESENVOLVIDO COM MUITA LUTA!");
+                        Console.WriteLine("Obrigado por ter usado nosso programa.");
+                        Console.WriteLine("Esperamos que tenha se divertido!!");
+                        Console.WriteLine("Lembre-se :\nUm dia você é o escolhido,\nno outro,\no excluido!\nPassar bem!");
+                        return;
+                }
+            } while (continuar);
+        }
+
         void Pesquisa_Vilao() 
         {
             Console.Clear();
@@ -64,6 +103,7 @@ class Program
             Console.WriteLine("---------------------------------------------------------------------------------------------------");
             finaliza_funcao();
         }
+
         void Boas_vindas()
         {
             Console.WriteLine(@"
@@ -105,6 +145,7 @@ class Program
                                                                        \;;|
                                                                         \/");
         }
+
         void exibir_opcoes()
         {
             int qtd_Letras = "Digite 2 para mostrar sua lista de vilões favoritos".Length;
@@ -123,49 +164,13 @@ class Program
 
             Console.WriteLine("Digite sua opção!");
         }
-        void coleta_opcao()
-        {
-            int n;
-            bool continuar = false;
-            do
-            {
-                n = int.Parse(Console.ReadLine()!);
-                switch (n)
-                {
-                    case 1:
-                        Pesquisa_Vilao();
-                        break;
-                    case 2:
-                        Exibir_lista_de_viloes_favoritos();
-                        break;
-                    case 3:
-                        //Console.WriteLine("Opção 4");
-                        Excluir_vilao_da_lista();
-                        break;
-                    case 0:
-                        Console.WriteLine("\nPrograma encerrado!!");
-                        Console.WriteLine("Obridago !!");
-                        return;
-                    default:
-                        Console.WriteLine("Opção inválida!!");
-                        Console.WriteLine("Tente Novamente");
-                        continuar = true;
-                        break;
-                    case -100:
-                        Console.WriteLine("Você encontrou nosso easter egg.");
-                        Console.WriteLine("PROGRAMA DESENVOLVIDO COM MUITA LUTA!");
-                        Console.WriteLine("Obrigado por ter usado nosso programa.");
-                        Console.WriteLine("Esperamos que tenha se divertido!!");
-                        Console.WriteLine("Lembre-se :\nUm dia você é o escolhido,\nno outro,\no excluido!\nPassar bem!");
-                        return;
-                }
-            } while (continuar);
-        }
+
         void Menu()
         {
             exibir_opcoes();
             coleta_opcao();
         }
+
         void Exibir_lista_de_viloes_favoritos()
         {    
             Console.Clear();
@@ -173,6 +178,7 @@ class Program
             Exibi_lista(list_vilao_favoritados);
             finaliza_funcao();
         }
+
         void Excluir_vilao_da_lista()
         {
 
@@ -209,6 +215,7 @@ class Program
             }
             finaliza_funcao();
         }
+
         void Exibir_Titulo_da_opcao(string titulo)
         {
             int qtd_Letras = titulo.Length;
@@ -217,6 +224,7 @@ class Program
             Console.WriteLine(titulo);
             Console.WriteLine(molde+"\n");
         }
+
         void finaliza_funcao()
         {
             Console.WriteLine("\nDigite qualquer tecla para voltar ao menu!");
@@ -224,6 +232,7 @@ class Program
             Console.Clear();
             Menu();
         }
+
         void Exibi_lista(List<class_vilao> lista)
         {
             if (lista.Count > 0)
@@ -242,6 +251,7 @@ class Program
                 Console.WriteLine("Lista vazia!!");
             }
         }
+
         Boas_vindas();
         Menu();
     }

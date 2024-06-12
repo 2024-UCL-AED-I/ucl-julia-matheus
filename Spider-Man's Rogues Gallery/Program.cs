@@ -1,10 +1,10 @@
 ﻿//Spider-Man's Rogues Gallery
-using System.Text.Json;
-using System;
-using System.IO;
-using System.Collections.Generic;
 using Spider_Man_s_Rogues_Gallery;
+using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Net.NetworkInformation;
+using System.Text.Json;
 using System.Xml;
 
 class Program
@@ -46,9 +46,10 @@ class Program
                 Console.WriteLine("Vilão não encontrado.");
             }
 
-            Console.WriteLine("\nDeseja favoritar este vilão ? (s/n)");
+            Console.WriteLine("\nDeseja favoritar este vilão? (s/n)");
             string escolha = Console.ReadLine()!;
-            if (escolha == "s" || escolha == "S") 
+            //if (int.Parse(escolha) == 1)
+            if (escolha == "s" || escolha == "S" || int.Parse(escolha) == 1)
             {
                 if (!list_vilao_favoritados.Contains(vilaoEncontrado)) 
                 { 
@@ -63,7 +64,7 @@ class Program
             Console.WriteLine("---------------------------------------------------------------------------------------------------");
             finaliza_funcao();
         }
-        void exibir_msg()
+        void Boas_vindas()
         {
             Console.WriteLine(@"
                     ░██████╗██████╗░██╗██████╗░███████╗██████╗░░░░░░░███╗░░░███╗░█████╗░███╗░░██╗██╗░██████╗
@@ -241,7 +242,7 @@ class Program
                 Console.WriteLine("Lista vazia!!");
             }
         }
-        exibir_msg();
+        Boas_vindas();
         Menu();
     }
 }

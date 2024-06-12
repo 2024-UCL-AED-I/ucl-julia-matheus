@@ -15,22 +15,19 @@ class Program
         //listar fixas (IMPORTANTES PARA O PROGRAMA FUNCIONAR!!)
         List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
         List<class_vilao> list_viloes = new List<class_vilao>();
-        String caminho_do_arquivojson = @"C:\Users\clabu\source\repos\ucl-julia-matheus\lista_vilao.json";
+        String caminho_do_arquivojson = @"C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
+
         //Caminhos relativos para as máquinas dos desenvolvedores !!
         //caminho Julia: @"C:\Users\clabu\source\repos\ucl-julia-matheus\lista_vilao.json";
         //caminho Matheus - Trabalho: @"C:\Users\matheus.souza\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
-        //caminho Matheus - casa: @"C:";
+        //String caminho_do_arquivojson = @"C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
 
         //Como é feita a converção do arquivo JSON!!
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
         list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
 
         //Codigo para agilizar desenvolvimento da função:Exibir lista de favoritos.(Retirar para apresentação!!)
-        int rep = list_viloes.Count;
-        for (int i = 0; i < rep; i++)
-        {
-            list_vilao_favoritados.Add(list_viloes[i]);
-        }
+        
 
         void Pesquisa_Vilao() 
         {
@@ -46,18 +43,23 @@ class Program
             {
                 vilaoEncontrado.Exibir_detalhes_do_vilao();
             }
+            if(int.Parse(nome_do_vilao)<= list_viloes.Count)
+            {
+                
+                list_viloes[(int.Parse(nome_do_vilao)-1)].Exibir_detalhes_do_vilao();
+                vilaoEncontrado = list_viloes[(int.Parse(nome_do_vilao) - 1)];
+            }
             else
             {
                 Console.WriteLine("Vilão não encontrado.");
-                Menu();
             }
 
             Console.WriteLine("\nDeseja favoritar este vilão ? (s/n)");
             string escolha = Console.ReadLine()!;
-            if (escolha == "s") 
+            if (escolha == "s" || escolha == "S") 
             {
                 list_vilao_favoritados.Add(vilaoEncontrado!);
-                Console.WriteLine("Vilão adicionado com sucesso !");
+                Console.WriteLine("Vilão adicionado com sucesso !!");
             }
             Console.WriteLine("---------------------------------------------------------------------------------------------------");
             finaliza_funcao();

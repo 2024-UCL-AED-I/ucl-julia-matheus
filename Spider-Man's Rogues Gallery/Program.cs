@@ -7,7 +7,6 @@ using Spider_Man_s_Rogues_Gallery;
 using System.Net.NetworkInformation;
 using System.Xml;
 
-
 class Program
 {
     static void Main()
@@ -15,20 +14,12 @@ class Program
         //listar fixas (IMPORTANTES PARA O PROGRAMA FUNCIONAR!!)
         List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
         List<class_vilao> list_viloes = new List<class_vilao>();
-        String caminho_do_arquivojson = @"C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
-
-        //Caminhos relativos para as máquinas dos desenvolvedores !!
-        //caminho Julia: @"C:\Users\clabu\source\repos\ucl-julia-matheus\lista_vilao.json";
-        //caminho Matheus - Trabalho: @"C:\Users\matheus.souza\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
-        //String caminho_do_arquivojson = @"C:\Users\mathe\source\repos\2024-UCL-AED-I\ucl-julia-matheus\lista_vilao.json";
+        String caminho_do_arquivojson = @"..\..\..\..\lista_vilao.json";
 
         //Como é feita a converção do arquivo JSON!!
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
         list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
-
-        //Codigo para agilizar desenvolvimento da função:Exibir lista de favoritos.(Retirar para apresentação!!)
         
-
         void Pesquisa_Vilao() 
         {
             Console.Clear();
@@ -36,7 +27,8 @@ class Program
             Exibi_lista(list_viloes);
             Console.WriteLine("Digite o nome do Vilão que deseja ver os dados.");
             string nome_do_vilao = Console.ReadLine()!;
-            Console.WriteLine("\n");
+            Console.WriteLine("---------------------------------------------------------------------------------------------------");
+            Console.WriteLine("");
             class_vilao vilaoEncontrado = list_viloes.Find(v => v.nome_do_vilao.Equals(nome_do_vilao, StringComparison.OrdinalIgnoreCase));
 
             if (vilaoEncontrado != null)
@@ -115,9 +107,10 @@ class Program
             string molde = string.Empty.PadLeft(qtd_Letras, '-');
 
             Console.WriteLine(molde);
-            Console.WriteLine("Digite 1 para pesquisar um vilão");
-            Console.WriteLine("Digite 2 para mostrar sua lista de vilões favoritos");
-            Console.WriteLine("Digite 3 para excluir um vilão da lista");
+            Console.WriteLine("0-SAIR");
+            Console.WriteLine("1- Pesquisar um vilão");
+            Console.WriteLine("2- Exibir lista de vilões favoritos");
+            Console.WriteLine("3- Excluir um vilão da lista");
             Console.WriteLine(molde);
 
             Console.WriteLine("Digite sua opção!");
@@ -174,24 +167,31 @@ class Program
         }
         void Excluir_vilao_da_lista()
         {
-            Console.Clear();
-            Exibir_Titulo_da_opcao("Excluindo vilão da lista...");
-            Console.WriteLine("Qual vilão deseja retirar da lista de Favoritos ?");
-            Exibi_lista(list_vilao_favoritados);
-            string nome = Console.ReadLine()!;
 
-            class_vilao vilaoEncontrado = list_vilao_favoritados.Find(v => v.nome_do_vilao.Equals(nome, StringComparison.OrdinalIgnoreCase));
-
-            if (vilaoEncontrado != null)
+            if (list_vilao_favoritados.Count != 0)
             {
-                list_vilao_favoritados.Remove(vilaoEncontrado);
-                Console.WriteLine($"O vilão {nome} foi removido com sucesso!");
+                Console.Clear();
+                Exibir_Titulo_da_opcao("Excluindo vilão da lista...");
+                Console.WriteLine("Qual vilão deseja retirar da lista de Favoritos ?");
+                Exibi_lista(list_vilao_favoritados);
+                string nome = Console.ReadLine()!;
+
+                class_vilao vilaoEncontrado = list_vilao_favoritados.Find(v => v.nome_do_vilao.Equals(nome, StringComparison.OrdinalIgnoreCase));
+
+                if (vilaoEncontrado != null)
+                {
+                    list_vilao_favoritados.Remove(vilaoEncontrado);
+                    Console.WriteLine($"O vilão {nome} foi removido com sucesso!");
+                }
+                else
+                {
+                    Console.WriteLine("Vilão não foi encontrado!");
+                }
             }
             else
             {
-                Console.WriteLine("Vilão não foi encontrado."); 
+                Console.WriteLine("\nA sua lista está Vazia!!\n");
             }
-            Console.WriteLine("");
             finaliza_funcao();
         }
         void Exibir_Titulo_da_opcao(string titulo)
@@ -204,7 +204,7 @@ class Program
         }
         void finaliza_funcao()
         {
-            Console.WriteLine("Digite qualquer tecla para voltar ao menu.");
+            Console.WriteLine("Digite qualquer tecla para voltar ao menu!");
             Console.ReadLine();
             Console.Clear();
             Menu();
@@ -216,19 +216,17 @@ class Program
                 int i = 1;
                 foreach (class_vilao vilao in lista)
                 {
-
                     Console.Write($"{i} - ");
                     Console.Write(vilao.nome_do_vilao);
                     Console.WriteLine("");
                     i++;
-
                 }
             }
             else
             {
                 Console.WriteLine("Lista vazia");
             }
-            Console.WriteLine("");
+                Console.WriteLine("");
         }
         exibir_msg();
         Menu();

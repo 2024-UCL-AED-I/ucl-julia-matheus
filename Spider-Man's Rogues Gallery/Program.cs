@@ -51,6 +51,7 @@ class Program
                         Gera_Relatorio Novo_Relatorio = new Gera_Relatorio();
                         Novo_Relatorio.Executar(list_vilao_favoritados);
                         break;
+                    case 5:// o que eu faço com a função limpar relatório ? Coloco como opção ou  chamo sempre que for emitir um relatório novo ?
                     case 0:
                         Inicio.Encerra_Programa();
                         return;

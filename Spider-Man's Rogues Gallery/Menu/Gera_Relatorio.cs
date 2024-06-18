@@ -4,7 +4,25 @@ namespace Spider_Man_s_Rogues_Gallery.Menu;
 
 public class Gera_Relatorio:Menu
 {
+    private string desktopPath
+    {
+        get
+        {
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            return desktopPath;
+        }
+    }
+    private string filePath
+    {
+        get
+        {
+            string filePath = Path.Combine(desktopPath, "Relatório Spider-Man's Rogues Gallery.txt");
+            return filePath;
+        }
+    }
+
     
+
     public void Executar(List<class_vilao> list_VilaoFavoritos)
     {
         Console.Clear();
@@ -12,14 +30,14 @@ public class Gera_Relatorio:Menu
 
         if (list_VilaoFavoritos.Count > 0)
         {
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string filePath = Path.Combine(desktopPath, "Relatório Spider-Man's Rogues Gallery.txt");
 
+            int i = 1;
             foreach (class_vilao vilao in list_VilaoFavoritos)
             {
-                
+                File.AppendAllText(filePath, $"Numero:{i}\n");
                 File.AppendAllText(filePath,vilao.ConteudoRelatorio);
                 File.AppendAllText(filePath, "-------------------------------------------------\n");
+                i++;
             }
 
             Console.WriteLine("Relatório criado com sucesso na área de trabalho!");
@@ -29,5 +47,9 @@ public class Gera_Relatorio:Menu
             Console.WriteLine("A sua lista está vazia!!");
         }
         finaliza_funcao();
+    }
+    public void Limpar_Relatorio()
+    {
+        File.WriteAllText(filePath, string.Empty);
     }
 }

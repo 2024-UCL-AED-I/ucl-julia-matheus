@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:menu\\gera_relatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\matheus.souza\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\menu\\exibir_lista_de_viloes_favoritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:menu\\exibir_lista_de_viloes_favoritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\matheus.souza\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\matheus.souza\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\menu\\exibir_lista_de_viloes_favoritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|solutionrelative:menu\\exibir_lista_de_viloes_favoritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74E41394-30FA-475E-91DE-4C09056FF6D1}|Spider-Man\u0027s Rogues Gallery.csproj|c:\\users\\matheus.souza\\source\\repos\\2024-ucl-aed-i\\ucl-julia-matheus\\spider-man\u0027s rogues gallery\\controladores\\operacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAUwCAAAAAOAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T01:11:14.022Z",
               "IsPinned": true,
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Exibir_lista_de_viloes_favoritos.cs",
               "DocumentMoniker": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Menu\\Exibir_lista_de_viloes_favoritos.cs",
               "RelativeDocumentMoniker": "Menu\\Exibir_lista_de_viloes_favoritos.cs",
@@ -113,7 +113,7 @@
               "RelativeDocumentMoniker": "Menu\\Gera_Relatorio.cs",
               "ToolTip": "C:\\Users\\matheus.souza\\source\\repos\\2024-UCL-AED-I\\ucl-julia-matheus\\Spider-Man\u0027s Rogues Gallery\\Menu\\Gera_Relatorio.cs",
               "RelativeToolTip": "Menu\\Gera_Relatorio.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBUAAABOAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T16:17:32.631Z",
               "EditorCaption": ""

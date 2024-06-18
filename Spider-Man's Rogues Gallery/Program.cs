@@ -1,6 +1,6 @@
 ﻿//Spider-Man's Rogues Gallery
-using Spider_Man_s_Rogues_Gallery;
 using Spider_Man_s_Rogues_Gallery.Apresentação;
+using Spider_Man_s_Rogues_Gallery.Classes;
 using Spider_Man_s_Rogues_Gallery.Menu;
 using System;
 using System.Collections.Generic;
@@ -22,15 +22,16 @@ class Program
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
         list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
 
+        list_vilao_favoritados.AddRange(list_viloes);
 
-       void MenuPrincipal()
+        void MenuPrincipal()
         {
             Inicio.TextoDoMenuPrincipal();
-            int n;
+            int n = int.Parse(Console.ReadLine()!); ;
+            Console.Clear();
             bool continuar = false;
             do
             {
-                n = int.Parse(Console.ReadLine()!);
                 switch (n)
                 {
                     case 1:
@@ -40,10 +41,15 @@ class Program
                     case 2:
                         Exibir_lista_de_viloes_favoritos Exibindo = new Exibir_lista_de_viloes_favoritos();
                         Exibindo.Exibi_lista(list_vilao_favoritados);
+                        Exibindo.finaliza_funcao();
                         break;
                     case 3:
                         Excluir_vilao_da_lista VilaoExcluido = new Excluir_vilao_da_lista();
                         VilaoExcluido.Executar(list_vilao_favoritados, list_viloes);
+                        break;
+                    case 4:
+                        Gera_Relatorio Novo_Relatorio = new Gera_Relatorio();
+                        Novo_Relatorio.Executar(list_vilao_favoritados);
                         break;
                     case 0:
                         Inicio.Encerra_Programa();

@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Spider_Man_s_Rogues_Gallery
+namespace Spider_Man_s_Rogues_Gallery.Classes
 {
     public class class_vilao
     {
@@ -24,6 +24,23 @@ namespace Spider_Man_s_Rogues_Gallery
         [JsonPropertyName("extras")]
         public Extras? extras { get; set; }
 
+        public string ConteudoRelatorio
+        {
+            get
+            {
+                string conteudo = $"Nome do Vilão: {nome_do_vilao}\n" +
+                                  $"Nome: {nome}\n" +
+                                  $"Idade: {idade}\n" +
+                                  $"Ocupação: {ocupacao}\n";
+                if (extras != null)
+                {
+                    conteudo += $"Formação: {extras.formacao}\n" +
+                                $"Relações: {extras.relacoes}\n" +
+                                $"Curiosidades: {extras.curiosidades}\n";
+                }
+                return conteudo;
+            }          
+        }
         public class Extras
         {
             [JsonPropertyName("formacao")]
@@ -48,5 +65,6 @@ namespace Spider_Man_s_Rogues_Gallery
                 Console.WriteLine($"Curiosidades: {extras.curiosidades}");
             }
         }
+        
     }
 }

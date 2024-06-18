@@ -1,4 +1,7 @@
-﻿namespace Spider_Man_s_Rogues_Gallery.Menu;
+﻿using Spider_Man_s_Rogues_Gallery.Apresentação;
+using Spider_Man_s_Rogues_Gallery.Classes;
+
+namespace Spider_Man_s_Rogues_Gallery.Menu;
 public class Menu
 {
     public void finaliza_funcao()
@@ -25,7 +28,7 @@ public class Menu
             Console.WriteLine("Lista vazia!!");
         }
     }
-    public void Exibir_Titulo_da_opcao(string titulo)
+    public void Exibir_titulo_funcao(string titulo)
     {
         int qtd_Letras = titulo.Length;
         string molde = string.Empty.PadLeft(qtd_Letras, '*');
@@ -33,6 +36,5 @@ public class Menu
         Console.WriteLine(titulo);
         Console.WriteLine(molde + "\n");
     }
-
 
 }

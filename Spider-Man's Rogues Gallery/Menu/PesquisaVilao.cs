@@ -1,11 +1,13 @@
-﻿namespace Spider_Man_s_Rogues_Gallery.Menu;
+﻿using Spider_Man_s_Rogues_Gallery.Classes;
+
+namespace Spider_Man_s_Rogues_Gallery.Menu;
 
 public  class PesquisaVilao : Menu
 {
     public void Executar(List<class_vilao> list_viloes, List<class_vilao> list_vilao_favoritados)
     {
         Console.Clear();
-        Exibir_Titulo_da_opcao("Pesquisando vilão...");
+        Exibir_titulo_funcao("Pesquisando vilão...");
         Exibi_lista(list_viloes);
         Console.WriteLine("\nDigite o nome ou Numero do Vilão que deseja ver os dados.");
         string nome_do_vilao = Console.ReadLine();

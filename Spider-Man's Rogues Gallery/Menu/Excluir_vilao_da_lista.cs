@@ -1,4 +1,6 @@
-﻿namespace Spider_Man_s_Rogues_Gallery.Menu;
+﻿using Spider_Man_s_Rogues_Gallery.Classes;
+
+namespace Spider_Man_s_Rogues_Gallery.Menu;
 
 public class Excluir_vilao_da_lista:Menu
 {
@@ -7,7 +9,7 @@ public class Excluir_vilao_da_lista:Menu
         if (list_vilao_favoritados.Count != 0)
         {
             Console.Clear();
-            Exibir_Titulo_da_opcao("Excluindo vilão da lista...");
+            Exibir_titulo_funcao("Excluindo vilão da lista...");
             Console.WriteLine("Qual vilão deseja retirar da lista de Favoritos ?");
             Exibi_lista(list_vilao_favoritados);
             string nome = Console.ReadLine()!;

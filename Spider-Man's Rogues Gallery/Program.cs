@@ -22,7 +22,7 @@ class Program
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
         list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
 
-        list_vilao_favoritados.AddRange(list_viloes);
+        //list_vilao_favoritados.AddRange(list_viloes);
 
         void MenuPrincipal()
         {

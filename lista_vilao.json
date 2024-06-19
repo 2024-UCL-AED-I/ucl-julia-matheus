@@ -4,7 +4,7 @@
     "nome": "Norman Osborn",
     "idade": "Varia de acordo com a versão, geralmente entre 40 e 50 anos",
     "ocupacao": "Empresário, cientista",
-    "superpoder": "Força, agilidade e resistência sobre-humanas; fator de cura acelerado",
+    "superpoder": "Força, agilidade, resistência sobre-humanas ,fator de cura acelerado",
     "informacoes_do_vilao": {
       "equipamentos": "Planador, bombas de abóbora, luvas de choque",
       "fraquezas": "Sanidade mental instável, dependência do soro Goblin"
@@ -36,7 +36,7 @@
     "nome": "Eddie Brock",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Jornalista",
-    "superpoder": "Força e agilidade sobre-humanas; capacidade de camuflagem",
+    "superpoder": "Força, agilidade sobre-humanas, capacidade de camuflagem",
     "informacoes_do_vilao": {
       "equipamentos": "Nenhum específico, depende do simbionte",
       "fraquezas": "Vulnerabilidade ao fogo e som"
@@ -84,7 +84,7 @@
     "nome": "Adrian Toomes",
     "idade": "Aproximadamente 70-80 anos",
     "ocupacao": "Engenheiro, inventor",
-    "superpoder": "Força aumentada",
+    "superpoder": "Força",
     "informacoes_do_vilao": {
       "equipamentos": "Traje alado que lhe concede voo",
       "fraquezas": "Velhice e problemas de saúde"

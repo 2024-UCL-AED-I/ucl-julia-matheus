@@ -3,6 +3,7 @@ using System.Text.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Spider_Man_s_Rogues_Gallery.Controladores;
 
@@ -58,6 +59,17 @@ public class PreencheListaVilao
             }
         }
         return list_vilao_favoritados;
+    }
+
+    public List<SuperPoder> lista()
+    {
+        List<SuperPoder> lista = new List<SuperPoder>();
+
+        String caminho_do_arquivojson = @"..\..\..\..\lista_vilao.json";
+        string jsonString = File.ReadAllText(caminho_do_arquivojson);
+        lista = JsonSerializer.Deserialize<List<SuperPoder>>(jsonString);
+
+        return lista;
     }
 
 }

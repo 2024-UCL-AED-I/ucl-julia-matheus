@@ -26,10 +26,6 @@ public class class_vilao
     [JsonPropertyName("extras")]
     public Extras? extras { get; set; }
 
-    // List<SuperPoder> superPoders { get; set; }
-
-
-
     public string ConteudoRelatorio
     {
         get
@@ -72,5 +68,7 @@ public class class_vilao
             Console.WriteLine($"Curiosidades: {extras.curiosidades}");
         }
     }
+
+    public SuperPoder Poder { get; set; }
     
 }

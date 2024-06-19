@@ -15,12 +15,17 @@ class Program
 {
     static void Main()
     {
+        //Centralizando Operação
+        PreencheListaVilao vilao = new PreencheListaVilao();
+        //Montando a lista de superPoderes.
+        List<SuperPoder> list = new List<SuperPoder>();
+        list = vilao.lista();
+
         //listar fixas (IMPORTANTES PARA O PROGRAMA FUNCIONAR!!)
         List<class_vilao> list_viloes = new List<class_vilao>();
         List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
 
         //Escreve Primeira Lista.
-        PreencheListaVilao vilao = new PreencheListaVilao();
         list_viloes = vilao.Viloes_em_json();
 
         //Escreve 2 Lista.

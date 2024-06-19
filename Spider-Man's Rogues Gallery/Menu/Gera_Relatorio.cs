@@ -1,4 +1,5 @@
-﻿using Spider_Man_s_Rogues_Gallery.Classes;
+﻿using Spider_Man_s_Rogues_Gallery.Apresentação;
+using Spider_Man_s_Rogues_Gallery.Classes;
 
 namespace Spider_Man_s_Rogues_Gallery.Menu;
 
@@ -37,7 +38,7 @@ public class Gera_Relatorio:Menu
             {
                 File.AppendAllText(filePath, $"Numero:{i}\n");
                 File.AppendAllText(filePath,vilao.ConteudoRelatorio);
-                File.AppendAllText(filePath, "-------------------------------------------------\n");
+                File.AppendAllText(filePath, "------------------------------------------------------------------------------------------------------\n");
                 i++;
             }
 
@@ -45,7 +46,7 @@ public class Gera_Relatorio:Menu
         }
         else
         {
-            Console.WriteLine("A sua lista está vazia!!");
+            Texto_ListaVazia();
         }
         finaliza_funcao();
     }
@@ -55,9 +56,18 @@ public class Gera_Relatorio:Menu
     }
     public void LimparLista(List<class_vilao> listaViloes)
     {
-        Exibir_titulo_funcao("Limpando a lista...");
-        listaViloes.Clear();
-        Limpar_Relatorio();
+        if (listaViloes.Count > 0 || File.Exists(filePath) == false)
+        {
+            Exibir_titulo_funcao("Limpando a lista...");
+            Console.WriteLine("A sua lista de Vilões Favoritos foi limpo!!");
+            Console.WriteLine("Relatórios gerados também foram limpos!!");
+            listaViloes.Clear();
+            Limpar_Relatorio();
+        }
+        else
+        {
+            Texto_ListaVazia();
+        }           
         finaliza_funcao();
     }
 }

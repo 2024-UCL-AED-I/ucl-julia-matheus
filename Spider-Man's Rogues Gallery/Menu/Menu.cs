@@ -2,7 +2,7 @@
 using Spider_Man_s_Rogues_Gallery.Classes;
 
 namespace Spider_Man_s_Rogues_Gallery.Menu;
-public class Menu
+public class Menu:Operacao
 {
     public void finaliza_funcao()
     {
@@ -26,7 +26,7 @@ public class Menu
 
         if (lista.Count == 0 && File.Exists(filePath) == false)
         {
-            Console.WriteLine("Sua lista está vazia!!");
+            
         }
 
         if (File.Exists(filePath))
@@ -56,7 +56,7 @@ public class Menu
         }
         else
         {
-            Console.WriteLine("Lista vazia!!");
+            Texto_ListaVazia();
         }
     }
 

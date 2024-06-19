@@ -1,6 +1,6 @@
 ﻿namespace Spider_Man_s_Rogues_Gallery.Apresentação;
 
-internal class Operacao
+public class Operacao
 {
    public void Apresenta_Slogan()
     {
@@ -103,5 +103,9 @@ Y""""""""YYYaaaa,,,,,,aaaaPPP""""""""P           Y""""""""YYYaaaa,,,,,,aaaaPPP""
    ""Y,_""Ya,_)8  8(_,aP""_,P""                 ""Y,_""Ya,_)8  8(_,aP""_,P""
      `""Ya_""""""    """"""_aP""'                     `""Ya_""""""    """"""_aP""'
         `""""YYbbddPP""""'                           `""""YYbbddPP""""'");
+    }
+    public void Texto_ListaVazia()
+    {
+        Console.WriteLine("Sua lista está vazia!!");
     }
 }

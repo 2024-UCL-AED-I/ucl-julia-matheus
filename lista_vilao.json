@@ -4,8 +4,8 @@
     "nome": "Norman Osborn",
     "idade": "Varia de acordo com a versão, geralmente entre 40 e 50 anos",
     "ocupacao": "Empresário, cientista",
+    "superpoder": "Força, agilidade e resistência sobre-humanas; fator de cura acelerado",
     "informacoes_do_vilao": {
-      "superpoder": "Força, agilidade e resistência sobre-humanas; fator de cura acelerado",
       "equipamentos": "Planador, bombas de abóbora, luvas de choque",
       "fraquezas": "Sanidade mental instável, dependência do soro Goblin"
     },
@@ -20,8 +20,8 @@
     "nome": "Otto Octavius",
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, engenheiro",
+    "superpoder": "Inteligência genial",
     "informacoes_do_vilao": {
-      "superpoder": "Inteligência genial",
       "equipamentos": "Tentáculos mecânicos controlados mentalmente",
       "fraquezas": "Arrogância, dependência dos tentáculos"
     },
@@ -36,8 +36,8 @@
     "nome": "Eddie Brock",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Jornalista",
+    "superpoder": "Força e agilidade sobre-humanas; capacidade de camuflagem",
     "informacoes_do_vilao": {
-      "superpoder": "Força e agilidade sobre-humanas; capacidade de camuflagem",
       "equipamentos": "Nenhum específico, depende do simbionte",
       "fraquezas": "Vulnerabilidade ao fogo e som"
     },
@@ -52,8 +52,8 @@
     "nome": "Dr. Curt Connors",
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, professor",
+    "superpoder": "Regeneração, força e agilidade aumentadas",
     "informacoes_do_vilao": {
-      "superpoder": "Regeneração, força e agilidade aumentadas",
       "equipamentos": "Nenhum específico",
       "fraquezas": "Fraqueza emocional em relação à sua família"
     },
@@ -68,8 +68,8 @@
     "nome": "Max Dillon",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Eletricista",
+    "superpoder": "Manipulação e geração de eletricidade",
     "informacoes_do_vilao": {
-      "superpoder": "Manipulação e geração de eletricidade",
       "equipamentos": "Usa um traje que ajuda a controlar seus poderes",
       "fraquezas": "Vulnerável à água e a sua própria arrogância"
     },
@@ -84,8 +84,8 @@
     "nome": "Adrian Toomes",
     "idade": "Aproximadamente 70-80 anos",
     "ocupacao": "Engenheiro, inventor",
+    "superpoder": "Força aumentada",
     "informacoes_do_vilao": {
-      "superpoder": "Força aumentada",
       "equipamentos": "Traje alado que lhe concede voo",
       "fraquezas": "Velhice e problemas de saúde"
     },
@@ -100,8 +100,8 @@
     "nome": "Flint Marko (William Baker)",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso",
+    "superpoder": "Transformação do corpo em areia",
     "informacoes_do_vilao": {
-      "superpoder": "Transformação do corpo em areia",
       "equipamentos": "Nenhum específico",
       "fraquezas": "Água e vento forte podem dispersar seu corpo"
     },
@@ -116,8 +116,8 @@
     "nome": "Quentin Beck",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Especialista em efeitos especiais, ilusionista",
+    "superpoder": "Nenhum",
     "informacoes_do_vilao": {
-      "superpoder": "Nenhum, utiliza tecnologia avançada",
       "equipamentos": "Equipamentos de ilusão e drones",
       "fraquezas": "Sem habilidades sobre-humanas, vulnerável sem seus dispositivos"
     },
@@ -132,8 +132,8 @@
     "nome": "Aleksei Sytsevich",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso",
+    "superpoder": "Força, resistência e durabilidade sobre-humanas",
     "informacoes_do_vilao": {
-      "superpoder": "Força, resistência e durabilidade sobre-humanas",
       "equipamentos": "Traje de rinoceronte blindado",
       "fraquezas": "Pouca inteligência, dependência do traje"
     },
@@ -148,8 +148,8 @@
     "nome": "Dr. Miles Warren",
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, professor",
+    "superpoder": "Nenhum natural",
     "informacoes_do_vilao": {
-      "superpoder": "Nenhum natural, usa clonagem e biotecnologia",
       "equipamentos": "Equipamentos de clonagem e bioengenharia",
       "fraquezas": "Obsessão por Gwen Stacy"
     },
@@ -164,8 +164,8 @@
     "nome": "Mac Gargan",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Detetive privado, criminoso",
+    "superpoder": "Força, agilidade e resistência sobre-humanas",
     "informacoes_do_vilao": {
-      "superpoder": "Força, agilidade e resistência sobre-humanas",
       "equipamentos": "Traje de escorpião com cauda cibernética",
       "fraquezas": "Vulnerável sem o traje"
     },
@@ -180,8 +180,8 @@
     "nome": "Dmitri Smerdyakov",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Espião, mestre do disfarce",
+    "superpoder": "Mudança de aparência através de tecnologia",
     "informacoes_do_vilao": {
-      "superpoder": "Mudança de aparência através de tecnologia",
       "equipamentos": "Dispositivos de camuflagem",
       "fraquezas": "Nenhuma habilidade sobre-humana"
     },
@@ -196,8 +196,8 @@
     "nome": "Wilson Fisk",
     "idade": "Aproximadamente 50-60 anos",
     "ocupacao": "Chefão do crime",
+    "superpoder": "Força e resistência acima da média humana",
     "informacoes_do_vilao": {
-      "superpoder": "Força e resistência acima da média humana",
       "equipamentos": "Variedade de armas escondidas",
       "fraquezas": "Arrogância, vulnerabilidade emocional relacionada à sua esposa"
     },
@@ -212,8 +212,8 @@
     "nome": "Herman Schultz",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso, engenheiro",
+    "superpoder": "Nenhum natural",
     "informacoes_do_vilao": {
-      "superpoder": "Nenhum natural, usa tecnologia",
       "equipamentos": "Luvas vibro-socadoras",
       "fraquezas": "Dependência das luvas, falta de superpoderes"
     },
@@ -228,8 +228,8 @@
     "nome": "Felicia Hardy",
     "idade": "Aproximadamente 20-30 anos",
     "ocupacao": "Ladra",
+    "superpoder": "Nenhum natural",
     "informacoes_do_vilao": {
-      "superpoder": "Nenhum natural, habilidades de luta e atletismo",
       "equipamentos": "Equipamentos de arrombamento e garras retráteis",
       "fraquezas": "Emocionalmente ligada ao Homem-Aranha"
     },
@@ -244,8 +244,8 @@
     "nome": "Sergei Kravinoff",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Caçador",
+    "superpoder": "Força, agilidade e sentidos aumentados",
     "informacoes_do_vilao": {
-      "superpoder": "Força, agilidade e sentidos aumentados",
       "equipamentos": "Armas de caça e poções",
       "fraquezas": "Orgulho excessivo"
     },
@@ -260,8 +260,8 @@
     "nome": "Dr. Michael Morbius",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Cientista",
+    "superpoder": "Força, agilidade e habilidades de vampiro",
     "informacoes_do_vilao": {
-      "superpoder": "Força, agilidade e habilidades de vampiro",
       "equipamentos": "Nenhum específico",
       "fraquezas": "Sensibilidade à luz solar, necessidade de consumir sangue"
     },
@@ -276,8 +276,8 @@
     "nome": "Roderick Kingsley (entre outros)",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Empresário, criminoso",
+    "superpoder": "Força e agilidade aumentadas devido ao soro Goblin",
     "informacoes_do_vilao": {
-      "superpoder": "Força e agilidade aumentadas devido ao soro Goblin",
       "equipamentos": "Planador e arsenal semelhante ao do Duende Verde",
       "fraquezas": "Sanidade mental instável"
     },
@@ -292,8 +292,8 @@
     "nome": "Dr. Miles Warren",
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, professor",
+    "superpoder": "Nenhum natural",
     "informacoes_do_vilao": {
-      "superpoder": "Nenhum natural, usa clonagem e biotecnologia",
       "equipamentos": "Equipamentos de clonagem e bioengenharia",
       "fraquezas": "Obsessão por Gwen Stacy"
     },
@@ -308,8 +308,8 @@
     "nome": "Cletus Kasady",
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso, psicopata",
+    "superpoder": "Força, agilidade e durabilidade sobre-humanas, habilidade de criar armas com o simbionte",
     "informacoes_do_vilao": {
-      "superpoder": "Força, agilidade e durabilidade sobre-humanas, habilidade de criar armas com o simbionte",
       "equipamentos": "Nenhum específico, depende do simbionte",
       "fraquezas": "Vulnerabilidade ao som e ao fogo"
     },

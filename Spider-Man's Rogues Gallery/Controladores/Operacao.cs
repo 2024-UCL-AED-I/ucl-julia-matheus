@@ -78,4 +78,29 @@ internal class Operacao
         Console.WriteLine(molde);
         Console.WriteLine("Digite sua opção!\n");
     }
+    public void Exibe_slogan_EasterEgg()
+    {
+        Console.WriteLine(@"
+            _,,gg,,_                                 _,,gg,,_
+        ,a888P88Y888a,                           ,a888P88Y888a,
+      ,d""8""8"",YY,""8""8""b,                       ,d""8""8"",YY,""8""8""b,
+     d"",P'd' d'`b `b`Y,""b,                    d"",P'd' d'`b `b`Y,""b,
+   ,P"",P',P  8  8  Y,`Y,""Y,                 ,P"",P',P  8  8  Y,`Y,""Y,
+  ,P ,P' d'  8  8  `b `Y, Y,               ,P ,P' d'  8  8  `b `Y, Y,
+ ,P ,P_,,8ggg8gg8ggg8,,_Y, Y,             ,P ,P_,,8ggg8gg8ggg8,,_Y, Y,
+,8P""""""""""""""''      ``""""""""""""""Y8,           ,8P""""""""""""""''      ``""""""""""""""Y8,
+d'/~\    /~\    /~\    /~\  `b           d' ,a8a,    /\ /\    ,a8a,  `b
+8/   \  /   \  /   \  /   \  8           8 ,P"" ""Y,    ( )    ,P"" ""Y,  8
+8 ,8, \/ ,8, \/ ,8, \/ ,8, \/8           8,P'   `Y, .( o ). ,P'   `Y, 8
+8 ""Y"" /\ ""Y"" /\ ""Y"" /\ ""Y"" /\8           8P'/\ /\`Y,   _   ,P'/\ /\`Y,8
+8\   /  \   /  \   /  \   /  8           8'  ( )  `Y, (_) ,P'  ( )  `Y8
+8 \_/    \_/    \_/    \_/   8           8 .( o ). `Ya   aP' .( o ). `8
+8                            8           8 =-=-=-=   ""YaP""   =-=-=-=  8
+Y""""""""YYYaaaa,,,,,,aaaaPPP""""""""P           Y""""""""YYYaaaa,,,,,,aaaaPPP""""""""P
+`b ag,   ``""""""""""""""""''   ,ga d'           `b ag,   ``""""""""""""""""''   ,ga d'
+ `YP ""b,  ,aa,  ,aa,  ,d"" YP'             `YP ""b,  ,aa,  ,aa,  ,d"" YP'
+   ""Y,_""Ya,_)8  8(_,aP""_,P""                 ""Y,_""Ya,_)8  8(_,aP""_,P""
+     `""Ya_""""""    """"""_aP""'                     `""Ya_""""""    """"""_aP""'
+        `""""YYbbddPP""""'                           `""""YYbbddPP""""'");
+    }
 }

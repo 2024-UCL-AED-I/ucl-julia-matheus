@@ -1,6 +1,7 @@
 ﻿//Spider-Man's Rogues Gallery
 using Spider_Man_s_Rogues_Gallery.Apresentação;
 using Spider_Man_s_Rogues_Gallery.Classes;
+using Spider_Man_s_Rogues_Gallery.Controladores;
 using Spider_Man_s_Rogues_Gallery.Menu;
 using System;
 using System.Collections.Generic;
@@ -15,26 +16,30 @@ class Program
     static void Main()
     {
         //listar fixas (IMPORTANTES PARA O PROGRAMA FUNCIONAR!!)
-        List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
         List<class_vilao> list_viloes = new List<class_vilao>();
+        List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
+
+        //Escreve Primeira Lista.
+        PreencheListaVilao vilao = new PreencheListaVilao();
+        list_viloes = vilao.Viloes_em_json();
+
+        //Escreve 2 Lista.
+        list_vilao_favoritados = vilao.list_vilao_favoritados(list_viloes);
+
+
         Operacao Inicio = new Operacao();
-        String caminho_do_arquivojson = @"..\..\..\..\lista_vilao.json";
-
-        string jsonString = File.ReadAllText(caminho_do_arquivojson);
-        list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
-
-
         Inicio.Apresenta_Slogan();
         MenuPrincipal();
 
         void MenuPrincipal()
         {
-            Inicio.TextoDoMenuPrincipal();
-            int n = int.Parse(Console.ReadLine()!); ;
-            Console.Clear();
-            bool continuar = false;
+
+            bool continuar = true;
             do
             {
+                Inicio.TextoDoMenuPrincipal();
+                int n = int.Parse(Console.ReadLine()!);
+                Console.Clear();
                 switch (n)
                 {
                     case 1:
@@ -61,17 +66,17 @@ class Program
                     // o que eu faço com a função limpar relatório ? Coloco como opção ou  chamo sempre que for emitir um relatório novo ?
                     case 0:
                         Inicio.Encerra_Programa();
+                        continuar = false;
                         return;
                     default:
                         Inicio.Texto_opcaoInvalida();
-                        continuar = true;
+                        MenuPrincipal();
                         break;
                     case -100:
                         Inicio.Exibe_Texto_EasterEgg();
                         return;
                 }
             } while (continuar);
-            MenuPrincipal();
         }
     }
 }

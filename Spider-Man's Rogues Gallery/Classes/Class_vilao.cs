@@ -69,6 +69,6 @@ public class class_vilao
         }
     }
 
-    public SuperPoder Poder { get; set; }
+    public List<SuperPoder> ListaDePoder { get; set; }
     
 }

@@ -20,6 +20,10 @@ class Program
         //Montando a lista de superPoderes.
         List<SuperPoder> list = new List<SuperPoder>();
         list = vilao.lista();
+        foreach (SuperPoder superPoder in list)
+        {
+            Console.WriteLine(superPoder.SuperPoderOriginal);
+        }
 
         //listar fixas (IMPORTANTES PARA O PROGRAMA FUNCIONAR!!)
         List<class_vilao> list_viloes = new List<class_vilao>();

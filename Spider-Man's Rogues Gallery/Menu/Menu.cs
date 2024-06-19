@@ -10,8 +10,39 @@ public class Menu
         Console.ReadLine();
         Console.Clear();
     }
+    public void Exibir_titulo_funcao(string titulo)
+    {
+        int qtd_Letras = titulo.Length;
+        string molde = string.Empty.PadLeft(qtd_Letras, '*');
+        Console.WriteLine(molde);
+        Console.WriteLine(titulo);
+        Console.WriteLine(molde + "\n");
+    }
+
     public void Exibi_lista(List<class_vilao> lista)
     {
+        string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+        string filePath = Path.Combine(desktopPath, "Relatório Spider-Man's Rogues Gallery.txt");
+
+        if (lista.Count == 0 && File.Exists(filePath) == false)
+        {
+            Console.WriteLine("Sua lista está vazia!!");
+        }
+
+        if (File.Exists(filePath))
+        {
+            try
+            {
+                string ConteudoDoTxt = File.ReadAllText(filePath);
+            }
+            catch(Exception ex) 
+            {
+                Console.WriteLine("Erro ao ler o arquivo!");
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+
         if (lista.Count > 0)
         {
             int i = 1;
@@ -28,13 +59,6 @@ public class Menu
             Console.WriteLine("Lista vazia!!");
         }
     }
-    public void Exibir_titulo_funcao(string titulo)
-    {
-        int qtd_Letras = titulo.Length;
-        string molde = string.Empty.PadLeft(qtd_Letras, '*');
-        Console.WriteLine(molde);
-        Console.WriteLine(titulo);
-        Console.WriteLine(molde + "\n");
-    }
+
 
 }

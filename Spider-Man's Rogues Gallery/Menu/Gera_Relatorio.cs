@@ -26,6 +26,7 @@ public class Gera_Relatorio:Menu
     public void Executar(List<class_vilao> list_VilaoFavoritos)
     {
         Console.Clear();
+        Limpar_Relatorio();
         Exibir_titulo_funcao("Gerando Relatório...");
 
         if (list_VilaoFavoritos.Count > 0)
@@ -51,5 +52,12 @@ public class Gera_Relatorio:Menu
     public void Limpar_Relatorio()
     {
         File.WriteAllText(filePath, string.Empty);
+    }
+    public void LimparLista(List<class_vilao> listaViloes)
+    {
+        Exibir_titulo_funcao("Limpando a lista...");
+        listaViloes.Clear();
+        Limpar_Relatorio();
+        finaliza_funcao();
     }
 }

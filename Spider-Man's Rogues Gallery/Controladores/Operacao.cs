@@ -75,6 +75,7 @@ internal class Operacao
         Console.WriteLine("2- Exibir lista de vilões favoritos");
         Console.WriteLine("3- Excluir um vilão da lista");
         Console.WriteLine("4- Gerar Relatório de Vilões");
+        Console.WriteLine("5- Limpar Lista de Vilões Favoritos");
         Console.WriteLine(molde);
         Console.WriteLine("Digite sua opção!\n");
     }

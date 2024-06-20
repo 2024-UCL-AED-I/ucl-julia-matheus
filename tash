@@ -1,0 +1,279 @@
+[33mcommit 505c3c09f983a9ec1c6f8edc26597aa92dd89216[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mTeste[m[33m, [m[1;31morigin/Teste[m[33m)[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Wed Jun 19 15:00:47 2024 -0300
+
+    Atualização.
+
+[33mcommit c52d30c6e0219e0a3e611ba133d8f217ad6804c9[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Wed Jun 19 14:44:45 2024 -0300
+
+    Leves ajustes no json.
+
+[33mcommit 43c94b5f581a21cc22ed911ca9f0c243d2e2d965[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mTeste_da_Julia[m[33m)[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Wed Jun 19 13:29:03 2024 -0300
+
+    Organizando.
+
+[33mcommit 3c7383ac2bf41e08074423b3200aefd076de3dd1[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Wed Jun 19 13:20:56 2024 -0300
+
+    Função que lê e preenche lista de vilões favoritados antes do programa iniciar.
+
+[33mcommit 570e2bb48cfce9e29cc53910e597edc672afae3c[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Wed Jun 19 10:23:25 2024 -0300
+
+    Classe menu agora herda a classe Operação.
+    Função de texto "Lista vazia" criada.
+
+[33mcommit bf9c03e1cdf93e6f5a2c211392e180dc66752295[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Wed Jun 19 10:07:10 2024 -0300
+
+    Criada função Limpar lista e relatório.
+
+[33mcommit 3182c617e0c716f7a3de5cf1c1ac60d7597b7cd0[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue Jun 18 22:01:41 2024 -0300
+
+    Desenvolvendo outra classe.
+
+[33mcommit 997c656ee49a1a7e5e2b87112c6576aec842e26d[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Tue Jun 18 14:57:00 2024 -0300
+
+    Criei função Limpar relatório. Função ainda não esta sendo chamada.
+    
+    <o que eu faço com a função limpar relatório ? Coloco como opção ou  chamo sempre que for emitir um relatório novo ?>
+
+[33mcommit 7f13c933f5312cfe2682c3776f550b9c01c4f655[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Tue Jun 18 14:34:58 2024 -0300
+
+    Retirando lista modelo.
+
+[33mcommit 46a6acb013cbe7cde05d55c9ca41ab619b8c02a7[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Tue Jun 18 14:34:05 2024 -0300
+
+    Gerando Relatório em TXT
+
+[33mcommit 49e93d830f78a3bea7160ab8db0d1432a887befe[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Tue Jun 18 11:41:29 2024 -0300
+
+    Organizando Projeto em Classes.
+
+[33mcommit 29459c13da2afd3c600052fb74d051c11f7aa03f[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Wed Jun 12 00:00:18 2024 -0300
+
+    Atualização da Atualização.
+
+[33mcommit 95d3523592af634a8230c81307a67c1ff29c598f[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue Jun 11 23:57:03 2024 -0300
+
+    Atualização do gitignore
+
+[33mcommit 9bc7187130380609e7e00c2246d0fa235b59e43c[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue Jun 11 23:45:44 2024 -0300
+
+    Passei parametro 1 para aceitar funções!
+
+[33mcommit 505c55a3482ff848a1385bab7399097295fbbfab[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue Jun 11 23:29:42 2024 -0300
+
+    Metodo excluir vilão passa a aceitar números também.
+    Correção de bugs
+
+[33mcommit 57fddffa1c7824a46ea74d283bf8eb694882695b[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue Jun 11 23:15:12 2024 -0300
+
+    Checagem se vilão já estava na lista.
+
+[33mcommit d3ce74bab14791bcd54dd0420cc9021cd64488a8[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue Jun 11 22:59:51 2024 -0300
+
+    Concertando caminho para o arquivo!!
+
+[33mcommit e004f3551cc5e6366ca292006c4aa59791714345[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue Jun 11 21:21:56 2024 -0300
+
+    Concertando Pesquisa Vilão!
+
+[33mcommit a93c495d3d5ffeeddaab6569e7870c86562e44ab[m
+Author: Senhorita Clabunde <clabundejulia@gmail.com>
+Date:   Tue Jun 11 20:54:50 2024 -0300
+
+    Correção da chamada dos vilões
+
+[33mcommit 41e10d775733698a67ff81c9ff56d03132d485b5[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Mon Jun 10 11:28:22 2024 -0300
+
+    Exibindo listas para pesquisar e excluir.
+
+[33mcommit 48731ed7b7a95f6d8398ae3b4828b77bc064611d[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Mon Jun 10 11:08:46 2024 -0300
+
+    Criada a Função Exclui Vilão.
+
+[33mcommit 8c1d088505d9cd7d1532016a543d0cc1bb46f49a[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Mon Jun 10 10:33:54 2024 -0300
+
+    Melhorando o Pesquisa Vilão.
+
+[33mcommit 230161b3d9779e89db5ffc3fb9515a69babc82f4[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Mon Jun 10 09:37:44 2024 -0300
+
+    Criada Função exibir titulo da opção.
+
+[33mcommit 93a4900fdf6f7bdbe6e592addda332030dc3f591[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Mon Jun 10 09:21:44 2024 -0300
+
+    Organização da Função Vilões Favoritados.
+    Teste na função menu
+
+[33mcommit f87550c4bdcd87885a1feb845e7b413a8c925921[m
+Author: Senhorita Clabunde <clabundejulia@gmail.com>
+Date:   Sun Jun 9 02:16:05 2024 -0300
+
+    Comentário sobre caminho do arquivo;
+    Mudança na função Pesquisa_Vilão, pra adicionar a lista e voltar ao menu.
+    Mudança no Menu principal - opções
+    Desenvolvimento da função - Exibir lista de viloes favoritos.
+
+[33mcommit 28d20d208f67716675d2a00347eb082c76026857[m
+Author: Senhorita Clabunde <clabundejulia@gmail.com>
+Date:   Sun Jun 9 00:41:27 2024 -0300
+
+    caminhos do arquivo
+
+[33mcommit be5c3b0d33db26cffacfff4cd0d9d0f38752c55a[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Thu Jun 6 14:16:59 2024 -0300
+
+    Preparação de arquivos .gitignore
+
+[33mcommit ceff49ba9038120106f55ca07e817357bd832fbc[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Thu Jun 6 13:56:57 2024 -0300
+
+    Atualização da pasta ignore.
+
+[33mcommit 887122494a651998869936a216fe45600894b384[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Wed Jun 5 09:52:48 2024 -0300
+
+    Inicio da função Favorita vilao.
+
+[33mcommit bfe347171a86e98e0656afb9a5b35163e59fa1ce[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Wed Jun 5 09:39:11 2024 -0300
+
+    Finalização do Pesquisa Vilão.
+
+[33mcommit bf2529863cf5e97fffd9489985396e72f5581860[m
+Author: matheus <matheus.souza@ogmoes.com.br>
+Date:   Wed Jun 5 09:24:13 2024 -0300
+
+    Conclusão das listas De vilões.
+
+[33mcommit 6d3882a12082f5c24aee2b1c9648461a691a08e7[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue Jun 4 21:20:24 2024 -0300
+
+    Correções de arquivos
+
+[33mcommit 61299f9466fdb727217903f7b131f415ea23b414[m
+Author: Senhorita Clabunde <clabundejulia@gmail.com>
+Date:   Fri May 31 01:19:07 2024 -0300
+
+    restaurando lista
+
+[33mcommit 92464eee7e784af7ecf77527cd9eae6e6eff3df7[m
+Author: Senhorita Clabunde <clabundejulia@gmail.com>
+Date:   Fri May 31 00:42:00 2024 -0300
+
+    Adição de classe
+    e função para printar.
+    E criação do arquivo txt com vilões
+
+[33mcommit c1c8d1c0c9a9580d5ea843e824a48d5abdc0bc3f[m
+Author: Senhorita Clabunde <clabundejulia@gmail.com>
+Date:   Thu May 30 23:35:24 2024 -0300
+
+    Entrada - nome do vilão
+
+[33mcommit 3b16535cdb41a84a7e7e4868e5222b6088edc10d[m
+Author: Senhorita Clabunde <clabundejulia@gmail.com>
+Date:   Thu May 30 23:32:12 2024 -0300
+
+    Adição de comentários
+
+[33mcommit c618a8963fa12618a07b0d6d5c48e16d3b1cea95[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue May 28 23:04:05 2024 -0300
+
+    Organizando arquivos.
+
+[33mcommit f340344dad4ee6ecbb2990e2339831e58a305b7e[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue May 28 22:52:34 2024 -0300
+
+    Finalização do Menu. 🌟🌟🌟
+
+[33mcommit 3778682c896b500c1feaee347f6e1a3f0ef44815[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue May 28 22:46:25 2024 -0300
+
+    Modelos de Função que vai comunicar no menu.
+
+[33mcommit 4e69863e00d31a570a41ed4945b3e3d5b3dbfa2f[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue May 28 22:36:37 2024 -0300
+
+    Criado corpo do menu.
+
+[33mcommit fa0fee35901e18fde6c87e38bf6e640a34fb828b[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue May 28 22:35:26 2024 -0300
+
+    Criada Função de coletar opções.
+
+[33mcommit 51eea985c4c228ded0d458f11db2e5332fbc9a6b[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue May 28 22:31:53 2024 -0300
+
+    Criada Função para exibir mensagem e opções
+
+[33mcommit 3b24790ad3fa941817537f912797e91e0eb6a8ba[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue May 28 22:13:58 2024 -0300
+
+    Concertando arquivos.
+
+[33mcommit a436395b730047c6ecf9b617d9706cb1b6acb2aa[m
+Author: matheus emanoel <matheusemanoelgomessouza@hotmail.com>
+Date:   Tue May 28 22:01:34 2024 -0300
+
+    Primeiro commit.
+
+[33mcommit f6a142ddad2acbaa1a9efa60e5bcaf396af460d0[m
+Author: Ribeiro <andrers@ucl.br>
+Date:   Tue May 28 19:25:18 2024 -0300
+
+    Initial commit

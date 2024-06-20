@@ -7,30 +7,49 @@ namespace Spider_Man_s_Rogues_Gallery.Classes;
 
 public class SuperPoder
 {
-    [JsonPropertyName("superpoder")]
-    public string? SuperPoderOriginal { get; set; }
+    public string NomeSuperPoder { get; private set; }
 
-    [JsonIgnore]
-    public List<string> SuperPoderes { get; private set; } = new List<string>();
-
-    [OnDeserialized]
-    private void OnDeserializedMethod(StreamingContext context)
+    private static List<string> SuperPoderList = new List<string>
     {
-        if (!string.IsNullOrEmpty(SuperPoderOriginal))
-        {
-            // Dividir a string original pelos delimitadores (",")
-            var poderes = SuperPoderOriginal.Split(',');
+        "Super Força",
+        "Velocidade",
+        "Voo",
+        "preencer",
+    };
 
-            // Adicionar cada poder à lista, removendo espaços desnecessários
-            foreach (var poder in poderes)
-            {
-                SuperPoderes.Add(poder.Trim());
-            }
+    public SuperPoder(string NomeSuperPoder1)
+    {
+        if (SuperPoderList.Contains(NomeSuperPoder1))
+        {
+            NomeSuperPoder = NomeSuperPoder1;
         }
     }
-
-    public void ExibirSuperPoder()
+    public List<SuperPoder> ExtraindoPoderes(string ListaBrutaPoderes)
     {
-        Console.WriteLine($"Super Poder: {SuperPoderOriginal}");
+        List<SuperPoder> superPoderes = new List<SuperPoder>();
+        string[] partes = ListaBrutaPoderes.Split(":");
+
+        string[] NomePoderes = partes[0].Split(",");
+        foreach (string nomePoder in NomePoderes)
+        {
+            string nomeFormatado = FormatarNomePoder(nomePoder.Trim());
+            superPoderes.Add(new SuperPoder(nomePoder));
+        }
+
+        return superPoderes;
     }
+    static string FormatarNomePoder(string nome)
+    {
+        string[] palavras = nome.Split(' ');
+        for (int i = 0; i < palavras.Length; i++)
+        {
+            if (!string.IsNullOrEmpty(palavras[i]))
+            {
+                palavras[i] = char.ToUpper(palavras[i][0]) + palavras[i].Substring(1).ToLower();
+            }
+        }
+        return string.Join(" ", palavras);
+    }
+
+
 }

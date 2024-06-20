@@ -17,23 +17,11 @@ class Program
     {
         //Centralizando Operação
         PreencheListaVilao vilao = new PreencheListaVilao();
-        //Montando a lista de superPoderes.
-        List<SuperPoder> list = new List<SuperPoder>();
-        list = vilao.lista();
-        foreach (SuperPoder superPoder in list)
-        {
-            Console.WriteLine(superPoder.SuperPoderOriginal);
-        }
 
         //listar fixas (IMPORTANTES PARA O PROGRAMA FUNCIONAR!!)
-        List<class_vilao> list_viloes = new List<class_vilao>();
-        List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
+        List<class_vilao> list_viloes = vilao.Viloes_em_json();
+        List<class_vilao> list_vilao_favoritados = vilao.list_vilao_favoritados(list_viloes);
 
-        //Escreve Primeira Lista.
-        list_viloes = vilao.Viloes_em_json();
-
-        //Escreve 2 Lista.
-        list_vilao_favoritados = vilao.list_vilao_favoritados(list_viloes);
 
 
         Operacao Inicio = new Operacao();
@@ -76,7 +64,7 @@ class Program
                     case 0:
                         Inicio.Encerra_Programa();
                         continuar = false;
-                        return;
+                        return ;
                     default:
                         Inicio.Texto_opcaoInvalida();
                         MenuPrincipal();

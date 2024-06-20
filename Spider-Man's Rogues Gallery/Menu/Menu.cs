@@ -2,7 +2,7 @@
 using Spider_Man_s_Rogues_Gallery.Classes;
 
 namespace Spider_Man_s_Rogues_Gallery.Menu;
-public class Menu:Operacao
+public class Menu:TEXTOS
 {
     public void finaliza_funcao()
     {

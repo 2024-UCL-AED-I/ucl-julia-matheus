@@ -4,15 +4,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 
 namespace Spider_Man_s_Rogues_Gallery.Controladores;
 
 public class PreencheListaVilao
 {
+    static String caminho_do_arquivojson = @"..\..\..\..\lista_vilao.json";
+    static string jsonString = File.ReadAllText(caminho_do_arquivojson);
     public List<class_vilao> Viloes_em_json()
     {
-        String caminho_do_arquivojson = @"..\..\..\..\lista_vilao.json";
-        string jsonString = File.ReadAllText(caminho_do_arquivojson);
         List<class_vilao> list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
         return list_viloes!;
     }
@@ -61,15 +62,48 @@ public class PreencheListaVilao
         return list_vilao_favoritados;
     }
 
-    public List<SuperPoder> lista()
+     public List<SuperPoder> ListaPoderes()
     {
-        List<SuperPoder> lista = new List<SuperPoder>();
 
-        String caminho_do_arquivojson = @"..\..\..\..\lista_vilao.json";
-        string jsonString = File.ReadAllText(caminho_do_arquivojson);
-        lista = JsonSerializer.Deserialize<List<SuperPoder>>(jsonString);
+        List<SuperPoder> ListaPoderes = new List<SuperPoder>();
+        string[] linhas = File.ReadAllLines(caminho_do_arquivojson);
+        List<string> linhasFiltradas = linhas
+        .Where(linha => linha.Trim().StartsWith("\"superpoder\""))
+        .Select(linha => linha.Split(':')[1].Trim().Trim('"', ',', ' ')) 
+        .ToList();
 
-        return lista;
+        // Concatenar todas as linhas filtradas em uma única string
+        string superpoderesConcatenados = string.Join(", ", linhasFiltradas);
+
+        // Dividir a string concatenada em partes individuais
+        string[] partes = superpoderesConcatenados.Split(new[] { ','}, StringSplitOptions.RemoveEmptyEntries);
+
+
+
+
+        List<string> ListaDeSuperPoderes = new List<string>();
+            HashSet<string> superPoderesSet = new HashSet<string>();
+
+            // Formatar cada parte: Primeira letra maiúscula e o restante minúsculo
+            for (int i = 0; i < partes.Length; i++)
+            {
+             
+                string parteFormatada = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(partes[i].Trim().ToLower());
+
+                // Adicionar à lista se não estiver presente no HashSet
+                if (superPoderesSet.Add(parteFormatada))
+                {
+                    ListaDeSuperPoderes.Add(parteFormatada);
+                }
+            }
+        //Console.WriteLine("\nLista de Superpoderes:");
+        foreach (string superPoder in ListaDeSuperPoderes)
+        {
+            //Console.WriteLine(superPoder);
+             SuperPoder PoderNovo = new SuperPoder(superPoder);
+            ListaPoderes.Add(PoderNovo);
+        }
+        return ListaPoderes;
     }
 
 }

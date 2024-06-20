@@ -17,13 +17,8 @@ class Program
     {
         //Centralizando Operação
         PreencheListaVilao vilao = new PreencheListaVilao();
-        //Montando a lista de superPoderes.
-        List<SuperPoder> list = new List<SuperPoder>();
-        list = vilao.lista();
-        foreach (SuperPoder superPoder in list)
-        {
-            Console.WriteLine(superPoder.SuperPoderOriginal);
-        }
+        List<SuperPoder> TodosOsPoderes = vilao.ListaPoderes();
+        TodosOsPoderes[0].ExibirLista(TodosOsPoderes);
 
         //listar fixas (IMPORTANTES PARA O PROGRAMA FUNCIONAR!!)
         List<class_vilao> list_viloes = new List<class_vilao>();
@@ -36,8 +31,8 @@ class Program
         list_vilao_favoritados = vilao.list_vilao_favoritados(list_viloes);
 
 
-        Operacao Inicio = new Operacao();
-        Inicio.Apresenta_Slogan();
+        TEXTOS Inicio = new TEXTOS();
+        Inicio.Texto_Slogan();
         MenuPrincipal();
 
         void MenuPrincipal()
@@ -72,9 +67,8 @@ class Program
                         Gera_Relatorio Limpar_Lista_Relatório = new Gera_Relatorio();
                         Limpar_Lista_Relatório.LimparLista(list_vilao_favoritados);
                         break;
-                    // o que eu faço com a função limpar relatório ? Coloco como opção ou  chamo sempre que for emitir um relatório novo ?
                     case 0:
-                        Inicio.Encerra_Programa();
+                        Inicio.Texto_Encerra_Programa();
                         continuar = false;
                         return;
                     default:
@@ -82,7 +76,7 @@ class Program
                         MenuPrincipal();
                         break;
                     case -100:
-                        Inicio.Exibe_Texto_EasterEgg();
+                        Inicio.Texto_EasterEgg();
                         return;
                 }
             } while (continuar);

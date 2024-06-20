@@ -1,8 +1,8 @@
 ﻿namespace Spider_Man_s_Rogues_Gallery.Apresentação;
 
-public class Operacao
+public class TEXTOS
 {
-   public void Apresenta_Slogan()
+   public void Texto_Slogan()
     {
         Console.WriteLine(@"
                     ░██████╗██████╗░██╗██████╗░███████╗██████╗░░░░░░░███╗░░░███╗░█████╗░███╗░░██╗██╗░██████╗
@@ -44,7 +44,7 @@ public class Operacao
                                                                         \/");
 
     }
-    public void Exibe_Texto_EasterEgg()
+    public void Texto_EasterEgg()
     {
         Console.WriteLine("Você encontrou nosso easter egg.");
         Console.WriteLine("PROGRAMA DESENVOLVIDO COM MUITA LUTA!");
@@ -52,7 +52,7 @@ public class Operacao
         Console.WriteLine("Esperamos que tenha se divertido!!");
         Console.WriteLine("Lembre-se :\nUm dia você é o escolhido,\nno outro,\no excluido!\nPassar bem!");
     }
-    public void Encerra_Programa()
+    public void Texto_Encerra_Programa()
     {
         Console.WriteLine("\nPrograma encerrado!!");
         Console.WriteLine("Obridago !!");
@@ -79,7 +79,7 @@ public class Operacao
         Console.WriteLine(molde);
         Console.WriteLine("Digite sua opção!\n");
     }
-    public void Exibe_slogan_EasterEgg()
+    public void Texto_slogan_EasterEgg()
     {
         Console.WriteLine(@"
             _,,gg,,_                                 _,,gg,,_

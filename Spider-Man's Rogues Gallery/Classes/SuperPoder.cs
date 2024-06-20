@@ -1,36 +1,23 @@
-﻿using System.Globalization;
-using System.Runtime.Serialization;
-using System.Text.Json.Serialization;
-using static Spider_Man_s_Rogues_Gallery.Classes.class_vilao;
-
-namespace Spider_Man_s_Rogues_Gallery.Classes;
+﻿namespace Spider_Man_s_Rogues_Gallery.Classes;
 
 public class SuperPoder
 {
-    [JsonPropertyName("superpoder")]
-    public string? SuperPoderOriginal { get; set; }
+    public string Nome { get; set; }
 
-    [JsonIgnore]
-    public List<string> SuperPoderes { get; private set; } = new List<string>();
-
-    [OnDeserialized]
-    private void OnDeserializedMethod(StreamingContext context)
+    public SuperPoder(string nome)
     {
-        if (!string.IsNullOrEmpty(SuperPoderOriginal))
-        {
-            // Dividir a string original pelos delimitadores (",")
-            var poderes = SuperPoderOriginal.Split(',');
-
-            // Adicionar cada poder à lista, removendo espaços desnecessários
-            foreach (var poder in poderes)
-            {
-                SuperPoderes.Add(poder.Trim());
-            }
-        }
+        Nome = nome;
     }
 
     public void ExibirSuperPoder()
     {
-        Console.WriteLine($"Super Poder: {SuperPoderOriginal}");
+        Console.WriteLine($"Super Poder: {}");
+    }
+    public void ExibirLista(List<SuperPoder> lista)
+    {
+        foreach(SuperPoder poder in lista)
+        {
+            Console.WriteLine(poder.Nome);
+        }
     }
 }

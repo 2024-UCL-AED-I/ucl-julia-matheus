@@ -1,4 +1,6 @@
-﻿namespace Spider_Man_s_Rogues_Gallery.Classes;
+﻿using System.Text.Json.Serialization;
+
+namespace Spider_Man_s_Rogues_Gallery.Classes;
 
 public class SuperPoder
 {
@@ -6,18 +8,18 @@ public class SuperPoder
 
     public SuperPoder(string nome)
     {
-        Nome = nome;
+        this.Nome = nome;
     }
 
-    public void ExibirSuperPoder()
+    // Método estático que recebe uma lista de strings e retorna uma lista de SuperPoder
+    public static List<SuperPoder> CriarListaDeSuperPoderes(List<string> nomes)
     {
-        Console.WriteLine($"Super Poder: {}");
-    }
-    public void ExibirLista(List<SuperPoder> lista)
-    {
-        foreach(SuperPoder poder in lista)
+        List<SuperPoder> superPoderes = new List<SuperPoder>();
+        foreach (string nome in nomes)
         {
-            Console.WriteLine(poder.Nome);
+            superPoderes.Add(new SuperPoder(nome)); 
         }
+        return superPoderes;
     }
+
 }

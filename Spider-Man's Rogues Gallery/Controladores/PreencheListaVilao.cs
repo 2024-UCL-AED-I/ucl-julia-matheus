@@ -15,6 +15,13 @@ public class PreencheListaVilao
     public List<class_vilao> Viloes_em_json()
     {
         List<class_vilao> list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
+
+        string[] linhas = File.ReadAllLines(caminho_do_arquivojson);
+        List<string> linhasFiltradas = linhas
+        .Where(linha => linha.Trim().StartsWith("\"superpoder\""))
+        .Select(linha => linha.Split(':')[1].Trim().Trim('"', ',', ' '))
+        .ToList();
+
         return list_viloes!;
     }
 
@@ -62,48 +69,48 @@ public class PreencheListaVilao
         return list_vilao_favoritados;
     }
 
-     public List<SuperPoder> ListaPoderes()
-    {
+     //public List<SuperPoder> ListaPoderes()
+    //{
 
-        List<SuperPoder> ListaPoderes = new List<SuperPoder>();
-        string[] linhas = File.ReadAllLines(caminho_do_arquivojson);
-        List<string> linhasFiltradas = linhas
-        .Where(linha => linha.Trim().StartsWith("\"superpoder\""))
-        .Select(linha => linha.Split(':')[1].Trim().Trim('"', ',', ' ')) 
-        .ToList();
+    //    List<SuperPoder> ListaPoderes = new List<SuperPoder>();
 
-        // Concatenar todas as linhas filtradas em uma única string
-        string superpoderesConcatenados = string.Join(", ", linhasFiltradas);
+    //    string[] linhas = File.ReadAllLines(caminho_do_arquivojson);
+    //    List<string> linhasFiltradas = linhas
+    //    .Where(linha => linha.Trim().StartsWith("\"superpoder\""))
+    //    .Select(linha => linha.Split(':')[1].Trim().Trim('"', ',', ' ')) 
+    //    .ToList();
 
-        // Dividir a string concatenada em partes individuais
-        string[] partes = superpoderesConcatenados.Split(new[] { ','}, StringSplitOptions.RemoveEmptyEntries);
+        
 
+    //    // Concatena todas as linhas filtradas em uma única string
+    //    string superpoderesConcatenados = string.Join(", ", linhasFiltradas);
 
+    //    // Divide a string concatenada em partes individuais
+    //    string[] partes = superpoderesConcatenados.Split(new[] { ','}, StringSplitOptions.RemoveEmptyEntries);
 
+    //        List<string> ListaDeSuperPoderes = new List<string>();
+    //        HashSet<string> superPoderesSet = new HashSet<string>();
 
-        List<string> ListaDeSuperPoderes = new List<string>();
-            HashSet<string> superPoderesSet = new HashSet<string>();
-
-            // Formatar cada parte: Primeira letra maiúscula e o restante minúsculo
-            for (int i = 0; i < partes.Length; i++)
-            {
+    //        // Formatar cada parte: Primeira letra maiúscula e o restante minúsculo
+    //        for (int i = 0; i < partes.Length; i++)
+    //        {
              
-                string parteFormatada = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(partes[i].Trim().ToLower());
+    //            string parteFormatada = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(partes[i].Trim().ToLower());
 
-                // Adicionar à lista se não estiver presente no HashSet
-                if (superPoderesSet.Add(parteFormatada))
-                {
-                    ListaDeSuperPoderes.Add(parteFormatada);
-                }
-            }
-        //Console.WriteLine("\nLista de Superpoderes:");
-        foreach (string superPoder in ListaDeSuperPoderes)
-        {
-            //Console.WriteLine(superPoder);
-             SuperPoder PoderNovo = new SuperPoder(superPoder);
-            ListaPoderes.Add(PoderNovo);
-        }
-        return ListaPoderes;
-    }
+    //            // Adicionar à lista se não estiver presente no HashSet
+    //            if (superPoderesSet.Add(parteFormatada))
+    //            {
+    //                ListaDeSuperPoderes.Add(parteFormatada);
+    //            }
+    //        }
+    //    //Console.WriteLine("\nLista de Superpoderes:");
+    //    foreach (string superPoder in ListaDeSuperPoderes)
+    //    {
+    //        //Console.WriteLine(superPoder);
+    //         SuperPoder PoderNovo = new SuperPoder(superPoder);
+    //        ListaPoderes.Add(PoderNovo);
+    //    }
+    //    return ListaPoderes;
+    //}
 
 }

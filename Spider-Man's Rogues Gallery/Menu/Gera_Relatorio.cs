@@ -33,12 +33,18 @@ public class Gera_Relatorio:Menu
         if (list_VilaoFavoritos.Count > 0)
         {
 
+            int j = list_VilaoFavoritos.Count;
             int i = 1;
+
+            File.AppendAllText(filePath, $"\nVocê tem {j} vilões Favoritados!!\n");
+            File.AppendAllText(filePath, "\n-----------------------------------------------------------------------------------------------------------------------\n");
+
+
             foreach (class_vilao vilao in list_VilaoFavoritos)
             {
-                File.AppendAllText(filePath, $"Numero:{i}\n");
+                File.AppendAllText(filePath, $"\nNumero:{i}\n");
                 File.AppendAllText(filePath,vilao.ConteudoRelatorio);
-                File.AppendAllText(filePath, "------------------------------------------------------------------------------------------------------\n");
+                File.AppendAllText(filePath, "\n-----------------------------------------------------------------------------------------------------------------------\n");
                 i++;
             }
 
@@ -58,11 +64,20 @@ public class Gera_Relatorio:Menu
     {
         if (listaViloes.Count > 0 || File.Exists(filePath) == false)
         {
-            Exibir_titulo_funcao("Limpando a lista...");
-            Console.WriteLine("A sua lista de Vilões Favoritos foi limpo!!");
-            Console.WriteLine("Relatórios gerados também foram limpos!!");
-            listaViloes.Clear();
-            Limpar_Relatorio();
+            Console.WriteLine("Você tem certeza que deseja limpar a lista de vilões favoritados ?\nCaso deseje digite (\"Sim\")");
+            string escolha = Console.ReadLine()!;
+            if (escolha.TrimStart().ToUpper() == "Sim")
+            {
+                Exibir_titulo_funcao("Limpando a lista...");
+                Console.WriteLine("A sua lista de Vilões Favoritos foi limpo!!");
+                Console.WriteLine("Relatórios gerados também foram limpos!!");
+                listaViloes.Clear();
+                Limpar_Relatorio();
+            }
+            else
+            {
+                Console.WriteLine("Lista Preservada!!");
+            }           
         }
         else
         {

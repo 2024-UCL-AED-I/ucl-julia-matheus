@@ -10,6 +10,7 @@ using System.IO;
 using System.Net.NetworkInformation;
 using System.Text.Json;
 using System.Xml;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 class Program
 {
@@ -17,13 +18,12 @@ class Program
     {
         //Centralizando Operação
         PreencheListaVilao vilao = new PreencheListaVilao();
-        List<SuperPoder> TodosOsPoderes = vilao.ListaPoderes();
-        TodosOsPoderes[0].ExibirLista(TodosOsPoderes);
-
+       
         //listar fixas (IMPORTANTES PARA O PROGRAMA FUNCIONAR!!)
         List<class_vilao> list_viloes = new List<class_vilao>();
         List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
 
+        
         //Escreve Primeira Lista.
         list_viloes = vilao.Viloes_em_json();
 
@@ -76,8 +76,13 @@ class Program
                         MenuPrincipal();
                         break;
                     case -100:
+                        Inicio.Texto_slogan_EasterEgg();
                         Inicio.Texto_EasterEgg();
                         return;
+                    case 6:
+                        list_vilao_favoritados.AddRange(list_viloes);
+                        MenuPrincipal();
+                        break;
                 }
             } while (continuar);
         }

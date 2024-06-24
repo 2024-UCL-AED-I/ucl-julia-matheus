@@ -18,7 +18,7 @@ public class class_vilao
     public string? nome { get; set; }
 
     [JsonPropertyName("idade")]
-    public string idade { get; set; }
+    public string? idade { get; set; }
 
     [JsonPropertyName("ocupacao")]
     public string? ocupacao { get; set; }
@@ -26,22 +26,48 @@ public class class_vilao
     [JsonPropertyName("extras")]
     public Extras? extras { get; set; }
 
+    [JsonPropertyName("superpoderes")]
+    public List<string> PoderesString { get; set; }
+
+    public List<SuperPoder>? ListaPoderes {  get; set; }
+
+    public class_vilao( List<string> PoderesString)
+    {
+        ListaPoderes = SuperPoder.CriarListaDeSuperPoderes(PoderesString);
+    }
+
+
     public string ConteudoRelatorio
     {
         get
         {
-            string conteudo = $"Nome do Vilão: {nome_do_vilao}\n" +
-                              $"Nome: {nome}\n" +
-                              $"Idade: {idade}\n" +
-                              $"Ocupação: {ocupacao}\n";
+            string conteudo = $"Nome do Vilão: {nome_do_vilao}.\n" +
+                              $"Nome: {nome}.\n" +
+                              $"Idade: {idade}.\n" +
+                              $"Ocupação: {ocupacao}.\n";
             if (extras != null)
             {
-                conteudo += $"Formação: {extras.formacao}\n" +
-                            $"Relações: {extras.relacoes}\n" +
-                            $"Curiosidades: {extras.curiosidades}\n";
+                conteudo += $"Formação: {extras.formacao}.\n" +
+                            $"Relações: {extras.relacoes}.\n" +
+                            $"Curiosidades: {extras.curiosidades}.\n";
+            }
+            if (ListaPoderes != null)
+            {
+                conteudo += "Poderes:";
+                int i = 1;
+                foreach (SuperPoder poder in ListaPoderes)
+                {
+                    conteudo += $"{poder.Nome}";
+                    if (i != ListaPoderes.Count)
+                        conteudo += ",";
+                    if (i == ListaPoderes.Count)
+                        conteudo += ".";
+                    i++;
+                }
+
             }
             return conteudo;
-        }          
+        }
     }
     public class Extras
     {
@@ -67,8 +93,24 @@ public class class_vilao
             Console.WriteLine($"Relações: {extras.relacoes}");
             Console.WriteLine($"Curiosidades: {extras.curiosidades}");
         }
+        if(ListaPoderes != null)
+        {
+            Console.Write("Poderes:");
+            int i = 1;
+            foreach (SuperPoder poder in ListaPoderes)
+            { 
+                Console.Write(poder.Nome);
+                if (i != ListaPoderes.Count)
+                { Console.Write(","); }
+                if(i == ListaPoderes.Count)
+                { Console.Write("."); }
+                i++;
+            }
+
+        }
     }
 
-    public List<SuperPoder> ListaDePoder { get; set; }
-    
+    //internal List<string> superPoder { get; set; }
+    //public List<SuperPoder> ListaDePoder { get; set; }
+
 }

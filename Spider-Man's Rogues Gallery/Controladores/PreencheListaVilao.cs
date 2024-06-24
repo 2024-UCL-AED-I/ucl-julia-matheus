@@ -9,17 +9,17 @@ namespace Spider_Man_s_Rogues_Gallery.Controladores;
 
 public class PreencheListaVilao
 {
-    public List<class_vilao> Viloes_em_json()
+    public List<Vilao> Viloes_em_json()
     {
         String caminho_do_arquivojson = @"..\..\..\..\lista_vilao.json";
         string jsonString = File.ReadAllText(caminho_do_arquivojson);
-        List<class_vilao> list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
+        List<Vilao> list_viloes = JsonSerializer.Deserialize<List<Vilao>>(jsonString);
         return list_viloes!;
     }
 
-    public List<class_vilao> list_vilao_favoritados(List<class_vilao> list_viloes)
+    public List<Vilao> list_vilao_favoritados(List<Vilao> list_viloes)
     {
-        List<class_vilao> list_vilao_favoritados = new List<class_vilao>();
+        List<Vilao> list_vilao_favoritados = new List<Vilao>();
         List<string> Nomes_dos_viloes_favoritados = new List<string>();
 
         string caminho = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
@@ -49,9 +49,9 @@ public class PreencheListaVilao
         }
         foreach (string nome in Nomes_dos_viloes_favoritados)
         {
-            foreach(class_vilao vilao in list_viloes)
+            foreach(Vilao vilao in list_viloes)
             {
-                if(vilao.nome_do_vilao == nome)
+                if(vilao.NomeDoVilao == nome)
                 {
                     list_vilao_favoritados.Add(vilao);
                     break;

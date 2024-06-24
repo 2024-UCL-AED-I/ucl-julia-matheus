@@ -4,7 +4,7 @@ namespace Spider_Man_s_Rogues_Gallery.Menu;
 
 public  class PesquisaVilao : Menu
 {
-    public void Executar(List<class_vilao> list_viloes, List<class_vilao> list_vilao_favoritados)
+    public void Executar(List<Vilao> list_viloes, List<Vilao> list_vilao_favoritados)
     {
         Console.Clear();
         Exibir_titulo_funcao("Pesquisando vilão...");
@@ -13,16 +13,16 @@ public  class PesquisaVilao : Menu
         string nome_do_vilao = Console.ReadLine();
         Console.WriteLine("---------------------------------------------------------------------------------------------------");
         Console.WriteLine("");
-        class_vilao vilaoEncontrado = list_viloes.Find(v => v.nome_do_vilao.Equals(nome_do_vilao, StringComparison.OrdinalIgnoreCase));
+        Vilao vilaoEncontrado = list_viloes.Find(v => v.NomeDoVilao.Equals(nome_do_vilao, StringComparison.OrdinalIgnoreCase));
 
         if (vilaoEncontrado != null)
         {
-            vilaoEncontrado.Exibir_detalhes_do_vilao();
+            vilaoEncontrado.ExibirDetalhesDoVilao();
         }
         if (int.Parse(nome_do_vilao) <= list_viloes.Count)
         {
 
-            list_viloes[(int.Parse(nome_do_vilao) - 1)].Exibir_detalhes_do_vilao();
+            list_viloes[(int.Parse(nome_do_vilao) - 1)].ExibirDetalhesDoVilao();
             vilaoEncontrado = list_viloes[(int.Parse(nome_do_vilao) - 1)];
         }
         else

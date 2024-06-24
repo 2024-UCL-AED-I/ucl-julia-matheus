@@ -4,7 +4,7 @@ namespace Spider_Man_s_Rogues_Gallery.Menu;
 
 public class Excluir_vilao_da_lista:Menu
 {
-    public void Executar(List<class_vilao> list_vilao_favoritados, List<class_vilao> list_viloes)
+    public void Executar(List<Vilao> list_vilao_favoritados, List<Vilao> list_viloes)
     {
         if (list_vilao_favoritados.Count != 0)
         {
@@ -14,7 +14,7 @@ public class Excluir_vilao_da_lista:Menu
             Exibi_lista(list_vilao_favoritados);
             string nome = Console.ReadLine()!;
 
-            class_vilao vilaoEncontrado = list_vilao_favoritados.Find(v => v.nome_do_vilao.Equals(nome, StringComparison.OrdinalIgnoreCase));
+            Vilao vilaoEncontrado = list_vilao_favoritados.Find(v => v.NomeDoVilao.Equals(nome, StringComparison.OrdinalIgnoreCase));
 
             if (vilaoEncontrado != null)
             {
@@ -25,7 +25,7 @@ public class Excluir_vilao_da_lista:Menu
             {
                 vilaoEncontrado = list_vilao_favoritados[(int.Parse(nome) - 1)];
                 list_vilao_favoritados.Remove(vilaoEncontrado);
-                Console.WriteLine($"O vilão: ({vilaoEncontrado.nome_do_vilao}) foi removido com sucesso!");
+                Console.WriteLine($"O vilão: ({vilaoEncontrado.NomeDoVilao}) foi removido com sucesso!");
 
             }
             else

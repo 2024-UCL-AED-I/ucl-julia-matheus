@@ -19,8 +19,8 @@ class Program
         PreencheListaVilao vilao = new PreencheListaVilao();
 
         //listar fixas (IMPORTANTES PARA O PROGRAMA FUNCIONAR!!)
-        List<class_vilao> list_viloes = vilao.Viloes_em_json();
-        List<class_vilao> list_vilao_favoritados = vilao.list_vilao_favoritados(list_viloes);
+        List<Vilao> list_viloes = vilao.Viloes_em_json();
+        List<Vilao> list_vilao_favoritados = vilao.list_vilao_favoritados(list_viloes);
 
 
 

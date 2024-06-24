@@ -24,7 +24,7 @@ public class Gera_Relatorio:Menu
 
     
 
-    public void Executar(List<class_vilao> list_VilaoFavoritos)
+    public void Executar(List<Vilao> list_VilaoFavoritos)
     {
         Console.Clear();
         Limpar_Relatorio();
@@ -34,10 +34,10 @@ public class Gera_Relatorio:Menu
         {
 
             int i = 1;
-            foreach (class_vilao vilao in list_VilaoFavoritos)
+            foreach (Vilao vilao in list_VilaoFavoritos)
             {
                 File.AppendAllText(filePath, $"Numero:{i}\n");
-                File.AppendAllText(filePath,vilao.ConteudoRelatorio);
+                File.AppendAllText(filePath,vilao.Relatorio);
                 File.AppendAllText(filePath, "------------------------------------------------------------------------------------------------------\n");
                 i++;
             }
@@ -54,7 +54,7 @@ public class Gera_Relatorio:Menu
     {
         File.WriteAllText(filePath, string.Empty);
     }
-    public void LimparLista(List<class_vilao> listaViloes)
+    public void LimparLista(List<Vilao> listaViloes)
     {
         if (listaViloes.Count > 0 || File.Exists(filePath) == false)
         {

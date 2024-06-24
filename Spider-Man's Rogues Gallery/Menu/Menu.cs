@@ -19,7 +19,7 @@ public class Menu:Operacao
         Console.WriteLine(molde + "\n");
     }
 
-    public void Exibi_lista(List<class_vilao> lista)
+    public void Exibi_lista(List<Vilao> lista)
     {
         string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         string filePath = Path.Combine(desktopPath, "Relatório Spider-Man's Rogues Gallery.txt");
@@ -46,10 +46,10 @@ public class Menu:Operacao
         if (lista.Count > 0)
         {
             int i = 1;
-            foreach (class_vilao vilao in lista)
+            foreach (Vilao vilao in lista)
             {
                 Console.Write($"{i} - ");
-                Console.Write(vilao.nome_do_vilao);
+                Console.Write(vilao.NomeDoVilao);
                 Console.WriteLine("");
                 i++;
             }

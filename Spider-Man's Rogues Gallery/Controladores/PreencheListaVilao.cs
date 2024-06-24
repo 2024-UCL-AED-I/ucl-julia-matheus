@@ -45,7 +45,7 @@ public class PreencheListaVilao
                     string[] parts = line.Split(":");
                     if(parts.Length == 2)
                     {
-                        string nomeVilao = parts[1].Trim();
+                        string nomeVilao = parts[1].Trim().Replace(".", "");
                         Nomes_dos_viloes_favoritados.Add(nomeVilao);
                     }
                 }

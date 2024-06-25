@@ -6,6 +6,7 @@ public class Excluir_vilao_da_lista:Menu
 {
     public void Executar(List<class_vilao> list_vilao_favoritados, List<class_vilao> list_viloes)
     {
+        Exibir_titulo_funcao("Excluindo Vilão da lista de favoritos...");
         if (list_vilao_favoritados.Count != 0)
         {
             Console.Clear();

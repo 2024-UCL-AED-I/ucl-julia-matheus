@@ -1,10 +1,4 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace Spider_Man_s_Rogues_Gallery.Classes;
 
@@ -27,7 +21,7 @@ public class class_vilao
     public Extras? extras { get; set; }
 
     [JsonPropertyName("superpoderes")]
-    private List<string> PoderesString { get; set; }
+    public List<string> PoderesString { get; set; }
 
     //nao preenchido automaticamente.
     public List<SuperPoder>? ListaPoderes {  get; set; }
@@ -110,8 +104,4 @@ public class class_vilao
 
         }
     }
-
-    //internal List<string> superPoder { get; set; }
-    //public List<SuperPoder> ListaDePoder { get; set; }
-
 }

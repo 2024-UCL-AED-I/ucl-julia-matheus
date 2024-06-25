@@ -3,14 +3,6 @@ using Spider_Man_s_Rogues_Gallery.Apresentação;
 using Spider_Man_s_Rogues_Gallery.Classes;
 using Spider_Man_s_Rogues_Gallery.Controladores;
 using Spider_Man_s_Rogues_Gallery.Menu;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.IO;
-using System.Net.NetworkInformation;
-using System.Text.Json;
-using System.Xml;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 class Program
 {
@@ -48,24 +40,23 @@ class Program
                 switch (n)
                 {
                     case 1:
-                        PesquisaVilao VilaoPesquisado = new PesquisaVilao();
+                        PesquisaVilao VilaoPesquisado = new ();
                         VilaoPesquisado.Executar(list_viloes, list_vilao_favoritados);
                         break;
                     case 2:
-                        Exibir_lista_de_viloes_favoritos Exibindo = new Exibir_lista_de_viloes_favoritos();
-                        Exibindo.Exibi_lista(list_vilao_favoritados);
-                        Exibindo.finaliza_funcao();
+                        Exibir_lista_de_viloes_favoritos Exibindo = new ();
+                        Exibindo.Executar(list_vilao_favoritados);
                         break;
                     case 3:
-                        Excluir_vilao_da_lista VilaoExcluido = new Excluir_vilao_da_lista();
+                        Excluir_vilao_da_lista VilaoExcluido = new ();
                         VilaoExcluido.Executar(list_vilao_favoritados, list_viloes);
                         break;
                     case 4:
-                        Gera_Relatorio Novo_Relatorio = new Gera_Relatorio();
+                        Gera_Relatorio Novo_Relatorio = new ();
                         Novo_Relatorio.Executar(list_vilao_favoritados);
                         break;
                     case 5:
-                        Gera_Relatorio Limpar_Lista_Relatório = new Gera_Relatorio();
+                        Gera_Relatorio Limpar_Lista_Relatório = new ();
                         Limpar_Lista_Relatório.LimparLista(list_vilao_favoritados);
                         break;
                     case 0:

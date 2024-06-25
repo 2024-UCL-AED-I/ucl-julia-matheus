@@ -62,6 +62,7 @@ public class Gera_Relatorio:Menu
     }
     public void LimparLista(List<class_vilao> listaViloes)
     {
+        Exibir_titulo_funcao("Limpando Lista...");
         if (listaViloes.Count > 0 || File.Exists(filePath) == false)
         {
             Console.WriteLine("Você tem certeza que deseja limpar a lista de vilões favoritados ?\nCaso deseje digite (\"Sim\")");

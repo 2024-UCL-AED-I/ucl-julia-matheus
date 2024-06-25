@@ -10,9 +10,8 @@ public  class PesquisaVilao : Menu
         Exibir_titulo_funcao("Pesquisando vilão...");
         Exibi_lista(list_viloes);
         Console.WriteLine("\nDigite o nome ou Numero do Vilão que deseja ver os dados.");
-        string nome_do_vilao = Console.ReadLine();
-        Console.WriteLine("---------------------------------------------------------------------------------------------------");
-        Console.WriteLine("");
+        string nome_do_vilao = Console.ReadLine()!;
+        Console.WriteLine("-----------------------------------------------------------------------------------------------------");
         class_vilao vilaoEncontrado = list_viloes.Find(v => v.nome_do_vilao.Equals(nome_do_vilao, StringComparison.OrdinalIgnoreCase));
 
         if (vilaoEncontrado != null)
@@ -29,7 +28,8 @@ public  class PesquisaVilao : Menu
         {
             Console.WriteLine("Vilão não encontrado.");
         }
-
+        Console.WriteLine("\n-----------------------------------------------------------------------------------------------------");
+        Console.WriteLine();
         Console.WriteLine("\nDeseja favoritar este vilão? (s/n)");
         string escolha = Console.ReadLine()!;
         //if (int.Parse(escolha) == 1)
@@ -38,11 +38,11 @@ public  class PesquisaVilao : Menu
             if (!list_vilao_favoritados.Contains(vilaoEncontrado))
             {
                 list_vilao_favoritados.Add(vilaoEncontrado!);
-                Console.WriteLine("Vilão adicionado com sucesso !!");
+                Console.WriteLine("\nVilão adicionado com sucesso !!");
             }
             else
             {
-                Console.WriteLine("Vilão já presente na sua lista!!");
+                Console.WriteLine("\nVilão já presente na sua lista!!");
             }
         }
         Console.WriteLine("---------------------------------------------------------------------------------------------------");

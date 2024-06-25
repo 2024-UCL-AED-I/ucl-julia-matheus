@@ -65,8 +65,8 @@
     "ocupacao": "Cientista, professor",
     "superpoderes": [
       "Regeneração",
-      "Força aumentada",
-      "Agilidade aumentada"
+      "Força sobre-humana",
+      "Agilidade sobre-humana"
     ],
     "informacoes_do_vilao": {
       "equipamentos": "Nenhum específico",
@@ -103,7 +103,7 @@
     "idade": "Aproximadamente 70-80 anos",
     "ocupacao": "Engenheiro, inventor",
     "superpoderes": [
-      "Força aumentada"
+      "Força sobre-humana"
     ],
     "informacoes_do_vilao": {
       "equipamentos": "Traje alado que lhe concede voo",
@@ -177,7 +177,7 @@
     "idade": "Aproximadamente 40-50 anos",
     "ocupacao": "Cientista, professor",
     "superpoderes": [
-      "Nenhum natural"
+      "Nenhum"
     ],
     "informacoes_do_vilao": {
       "equipamentos": "Equipamentos de clonagem e bioengenharia",
@@ -252,7 +252,7 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Criminoso, engenheiro",
     "superpoderes": [
-      "Nenhum natural"
+      "Nenhum"
     ],
     "informacoes_do_vilao": {
       "equipamentos": "Luvas vibro-socadoras",
@@ -270,7 +270,7 @@
     "idade": "Aproximadamente 20-30 anos",
     "ocupacao": "Ladra",
     "superpoderes": [
-      "Nenhum natural"
+      "Nenhum"
     ],
     "informacoes_do_vilao": {
       "equipamentos": "Equipamentos de arrombamento e garras retráteis",
@@ -288,7 +288,7 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Caçador",
     "superpoderes": [
-      "Força aumentada",
+      "Força sobre-humana",
       "Agilidade aumentada",
       "Sentidos aumentados"
     ],
@@ -308,8 +308,8 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Cientista",
     "superpoderes": [
-      "Força aumentada",
-      "Agilidade aumentada",
+      "Força sobre-humana",
+      "Agilidade sobre-humana",
       "Habilidades de vampiro"
     ],
     "informacoes_do_vilao": {
@@ -328,8 +328,8 @@
     "idade": "Aproximadamente 30-40 anos",
     "ocupacao": "Empresário, criminoso",
     "superpoderes": [
-      "Força aumentada",
-      "Agilidade aumentada"
+      "Força sobre-humana",
+      "Agilidade sobre-humana"
     ],
     "informacoes_do_vilao": {
       "equipamentos": "Planador e arsenal semelhante ao do Duende Verde",

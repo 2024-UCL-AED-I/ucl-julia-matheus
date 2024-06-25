@@ -71,10 +71,12 @@ class Program
                         Inicio.Texto_slogan_EasterEgg();
                         Inicio.Texto_EasterEgg();
                         return;
-                    //case 6:
+                    case 6:
                     //    list_vilao_favoritados.AddRange(list_viloes);
                     //    MenuPrincipal();
-                    //    break;
+                        FiltraPoder filtraPoder = new ();
+                        filtraPoder.executar(list_viloes);
+                       break;
                 }
             } while (continuar);
         }

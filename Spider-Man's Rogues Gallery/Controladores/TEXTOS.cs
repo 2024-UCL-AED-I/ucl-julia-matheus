@@ -87,7 +87,6 @@ public class TEXTOS
     "3- Excluir um vilão da lista",
     "4- Gerar Relatório de Vilões",
     "5- Limpar Lista de Vilões Favoritos",
-    "6- Teste adiciona lista inteira de vilões"
         };
 
         int larguraOpcaoMaxima = 0;
@@ -100,7 +99,7 @@ public class TEXTOS
             }
         }
 
-        string linha = new string('-', larguraOpcaoMaxima);
+        string linha = new string('=', larguraOpcaoMaxima);
         string espacos = new string(' ', (larguraOpcaoMaxima - larguraTitulo) / 2);
 
         Console.WriteLine(espacos + titulo);
@@ -141,6 +140,6 @@ public class TEXTOS
     }
     public void Texto_ListaVazia()
     {
-        Console.WriteLine("⚠️⚠️Oops! Sua lista está vazia. Que tal adicionar alguns vilões?⚠️⚠️");
+        Console.WriteLine(@"Oops! Sua lista está vazia. Que tal adicionar alguns vilões?");
     }
 }

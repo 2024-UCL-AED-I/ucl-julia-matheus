@@ -22,7 +22,7 @@ public class Excluir_vilao_da_lista:Menu
                 list_vilao_favoritados.Remove(vilaoEncontrado);
                 Console.WriteLine($"O vilão {nome} foi removido com sucesso!");
             }
-            if (int.Parse(nome) <= list_viloes.Count)
+            if (int.Parse(nome) <= list_vilao_favoritados.Count)
             {
                 vilaoEncontrado = list_vilao_favoritados[(int.Parse(nome) - 1)];
                 list_vilao_favoritados.Remove(vilaoEncontrado);

@@ -39,7 +39,7 @@ public class FiltraPoder:Menu
             i++;
         }
 
-        Console.WriteLine($);
+        Console.WriteLine();
         Console.WriteLine("\nDigite o numero do poder que deseja filtrar");
 
         int PoderEscolhido = int.Parse(Console.ReadLine()!);

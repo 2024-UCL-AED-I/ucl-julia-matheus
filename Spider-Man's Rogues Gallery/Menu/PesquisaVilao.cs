@@ -36,7 +36,7 @@ public  class PesquisaVilao : Menu
         Console.WriteLine("\nDeseja favoritar este vilão? (s/n)");
         string escolha = Console.ReadLine()!;
         //if (int.Parse(escolha) == 1)
-        if (escolha == "s" || escolha == "S" || int.Parse(escolha) == 1)
+        if (escolha == "s" || escolha == "S" )
         {
             if (!list_vilao_favoritados.Contains(vilaoEncontrado))
             {

@@ -55,7 +55,7 @@ public class TEXTOS
     public void Texto_Encerra_Programa()
     {
         Console.WriteLine("\nPrograma encerrado!!");
-        Console.WriteLine("Obridago !!");
+        Console.WriteLine("Obrigado !!");
     }
     public void Texto_opcaoInvalida()
     {

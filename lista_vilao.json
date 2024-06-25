@@ -361,5 +361,23 @@
       "relacoes": "Filho simbiótico de Venom",
       "curiosidades": "Considerado um dos vilões mais sádicos e perigosos do Homem-Aranha"
     }
+  },
+  {
+    "nome_vilao": "Data Mestre",
+    "nome": "André Ribeiro",
+    "idade": "Aproximadamente 30-40 anos",
+    "ocupacao": "Professor",
+    "superpoderes": [
+      "Manipulação de dados pessoais de indivíduos através de qualquer dispositivo conectado à internet"
+    ],
+    "informacoes_do_vilao": {
+      "equipamentos": "Computador ",
+      "fraquezas": "Dependente de uma conexão estável com a internet"
+    },
+    "extras": {
+      "formacao": "Gestão de projetos, Analista de Sistemas",
+      "relacoes": "Mentor de Julia Clabunde e Matheus Emanoel",
+      "curiosidades": "Já foi diretor de ensino da faculdade UCL"
+    }
   }
 ]

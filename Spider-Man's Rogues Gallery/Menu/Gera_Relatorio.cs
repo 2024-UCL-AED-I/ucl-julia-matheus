@@ -66,7 +66,7 @@ public class Gera_Relatorio:Menu
         {
             Console.WriteLine("Você tem certeza que deseja limpar a lista de vilões favoritados ?\nCaso deseje digite (\"Sim\")");
             string escolha = Console.ReadLine()!;
-            if (escolha.TrimStart().ToUpper() == "Sim")
+            if (escolha == "S"|| escolha == "s"|| escolha == "1")
             {
                 Exibir_titulo_funcao("Limpando a lista...");
                 Console.WriteLine("A sua lista de Vilões Favoritos foi limpo!!");

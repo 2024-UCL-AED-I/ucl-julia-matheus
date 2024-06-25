@@ -24,10 +24,6 @@ public class Menu:TEXTOS
         string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         string filePath = Path.Combine(desktopPath, "Relatório Spider-Man's Rogues Gallery.txt");
 
-        if (lista.Count == 0 && File.Exists(filePath) == false)
-        {
-            
-        }
 
         if (File.Exists(filePath))
         {

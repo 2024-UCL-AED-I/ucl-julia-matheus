@@ -33,6 +33,7 @@ class Program
 
         TEXTOS Inicio = new TEXTOS();
         Inicio.Texto_Slogan();
+        
         MenuPrincipal();
 
         void MenuPrincipal()

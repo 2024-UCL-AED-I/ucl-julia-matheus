@@ -16,12 +16,6 @@ public class PreencheListaVilao
     {
         List<class_vilao> list_viloes = JsonSerializer.Deserialize<List<class_vilao>>(jsonString);
 
-        string[] linhas = File.ReadAllLines(caminho_do_arquivojson);
-        List<string> linhasFiltradas = linhas
-        .Where(linha => linha.Trim().StartsWith("\"superpoder\""))
-        .Select(linha => linha.Split(':')[1].Trim().Trim('"', ',', ' '))
-        .ToList();
-
         return list_viloes!;
     }
 
@@ -46,7 +40,11 @@ public class PreencheListaVilao
                     if(parts.Length == 2)
                     {
                         string nomeVilao = parts[1].Trim().Replace(".", "");
-                        Nomes_dos_viloes_favoritados.Add(nomeVilao);
+                        if(!Nomes_dos_viloes_favoritados.Contains(nomeVilao))
+                        {
+                            Nomes_dos_viloes_favoritados.Add(nomeVilao);
+                        }
+                        
                     }
                 }
             }

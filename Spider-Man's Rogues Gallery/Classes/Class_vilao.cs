@@ -27,8 +27,9 @@ public class class_vilao
     public Extras? extras { get; set; }
 
     [JsonPropertyName("superpoderes")]
-    public List<string> PoderesString { get; set; }
+    private List<string> PoderesString { get; set; }
 
+    //nao preenchido automaticamente.
     public List<SuperPoder>? ListaPoderes {  get; set; }
 
     public class_vilao( List<string> PoderesString)

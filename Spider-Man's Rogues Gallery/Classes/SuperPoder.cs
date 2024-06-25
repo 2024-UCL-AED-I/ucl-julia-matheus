@@ -6,6 +6,8 @@ public class SuperPoder
 {
     public string Nome { get; set; }
 
+    public string? descricao {  get; set; }
+
     public SuperPoder(string nome)
     {
         this.Nome = nome;
